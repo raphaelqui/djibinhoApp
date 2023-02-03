@@ -1,0 +1,51 @@
+.sliderElem{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: blue;
+}
+
+.sliderElem-block{
+	position: absolute;
+	left: 0%;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: yellow;
+	transition: all ease-in-out 0.83s;
+}
+.sliderElem-block[alignment="left"]{
+	left: -100%;
+	background-color: blue;
+}
+.sliderElem-block[alignment="center"]{
+	left: 0%;
+	background-color: yellow;
+}
+.sliderElem-block[alignment="right"]{
+	left: 100%;
+	background-color: green;
+}
+
+
+
+.sliderElem-block-swipe{
+	position: absolute;
+	bottom: 0px;
+	height: 40px;
+	width: 100px;
+	background-color: firebrick;
+	opacity: 0.5;
+}
+
+.testi{
+	background-color: gold;
+}
+.testatSani{
+	background-color: goldenrod;
+}
+.testatSani2{
+	background-color: goldenrod;
+}

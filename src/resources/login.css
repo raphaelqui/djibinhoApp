@@ -1,0 +1,223 @@
+/*
+	pink
+	#ff4dab
+	#c93583
+
+	blau
+	#28384f
+	#16263d
+	#0c1d2d
+
+*/
+
+html{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.login{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+
+.login-slider{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 700px;
+	height: 490px;
+	transform: translateX(-50%) translateY(-50%);
+	border-radius: 9px;
+	overflow: hidden;
+}
+.login-slider-block{
+	top: 0px;
+	transition: all ease-in-out 0.2s;
+	left: 0%;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+.login-slider-block[place="0"]{
+	left:  -100%;
+}
+.login-slider-block[place="1"]{
+	left:  0%;
+}
+.login-slider-block[place="2"]{
+	left:  100%;
+}
+
+
+
+
+
+
+
+.login-sliderBottomBar{
+	height: 20px;
+	width: 100%;
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	padding-left: 100px;
+	padding-right: 100px;
+	opacity: 0.7;
+	display: table;
+}
+.login-sliderBottomBar-p{
+	font-size: 12px;
+	margin-left: 40px;
+	float: right;
+}
+.login-sliderBottomBar-dropdown{
+	float: left;
+	font-size: 12px;
+}
+
+
+
+
+.login-slider-block-headline{
+	margin-top: 30px;
+	font-family: 'Yeseva One', sans-serif;
+}
+
+.login-slider-block-infolink{
+	font-size: 13px;
+	margin-top: 6px;
+	font-weight: 300;
+	text-decoration: underline;
+	color: #5352ed;
+	cursor: pointer;
+}
+.login-slider-block-desc{
+	font-size: 13px;
+	margin-top: 6px;
+	font-weight: 300;
+}
+.login-slider-block-column-img{
+	margin-top:50px;
+	height: auto;
+	width: 340px;
+
+}
+
+
+
+.login-slider-block-column1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 50%;
+	padding: 10px 30px 10px 30px;
+}
+.login-slider-block-column2{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	height: 100%;
+	width: 50%;
+	overflow: hidden;
+	padding: 20px;
+}
+
+
+.login-slider-block-btnBar{
+	height: 40px;
+	width: 100%;
+	left: 0px;
+	position: absolute;
+	bottom: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.login-slider-block-btnLogin{
+	line-height: 39px;
+	color: white;
+	text-align: center;
+	border-radius: 2px;
+	height: 100%;
+	width: auto;
+	background-color: black;
+	font-size: 14px;
+	cursor: pointer;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: relative;
+
+}
+.login-slider-block-btnRegister{
+	line-height: 39px;
+	color: #5352ed;
+	text-align: center;
+	border-radius: 2px;
+	height: 100%;
+	width: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 14px;
+	cursor: pointer;
+}
+.login-slider-block-btnRegister:hover{
+	background-color: #f7f7ff;
+}
+
+.login-slider-block-space1{
+	height: 119px;
+	width: 100%;
+}
+
+.login-slider-block-btn-dotload{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+}
+.login-slider-block-btn-dotload[pending="false"]{
+	display: none;
+}
+.login-slider-block-btn-dotload[pending="true"]{
+	display: block;
+	
+}
+.login-slider-block-btn-dotload .dot {
+  height: 4px;
+  width: 4px;
+  background-color: whitesmoke;
+  display: inline-block;
+  margin: 2px 4px;
+  border-radius: 50px;
+  animation: dotLoaders 1.5s linear infinite forwards;
+}
+.login-slider-block-btn-dotload .dot.dot-1 {
+  animation-delay: 0.25s;
+}
+.login-slider-block-btn-dotload .dot.dot-2 {
+  animation-delay: 0.5s;
+}
+.login-slider-block-btn-dotload .dot.dot-3 {
+  animation-delay: 0.75s;
+}
+@keyframes dotLoaders {
+  0% {
+    background-color: rgba(255, 255, 255, 0.137);
+    transform: scale(0.8);
+  }
+  50% {
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.5);
+  }
+  100% {
+    background-color: rgba(255, 255, 255, 0.137);
+    transform: scale(0.8);
+  }
+}

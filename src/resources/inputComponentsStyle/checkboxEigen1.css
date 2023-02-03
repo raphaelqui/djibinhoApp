@@ -1,0 +1,48 @@
+.checkboxEigen1{
+	height: auto;
+	width: 100%;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	position: relative;
+	display: flex;
+
+}
+.checkboxEigen1-input{
+	position: absolute;
+	left: 20px;
+	top: 0px;
+	width: 60px;
+	display: none;
+}
+.checkboxEigen1-box{
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 2px;
+	height: 20px;
+	width: 20px;
+	margin-right: 13px;
+	cursor: pointer;
+	position: relative;
+}
+.checkboxEigen1-box-hook{
+	display: none;
+	position: absolute;	
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+	height: 6px;
+	width: 11px;
+	border-left: 2.5px solid rgba(0, 0, 0, 0.6);
+	border-bottom: 2.5px solid rgba(0, 0, 0, 0.6);
+	border-radius: 2px;
+}
+.checkboxEigen1-box-hook-active{
+	display: block;
+}
+.checkboxEigen1-html{
+	font-size: 13px;
+	left: 30px;
+	padding-top: 1px;
+	width: 100%;
+	color: #57606f;
+	font-weight: 300;
+}

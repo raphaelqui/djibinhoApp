@@ -1,0 +1,260 @@
+
+
+.campEditor{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.08);
+	background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.campEditor-editpage{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border-radius: 8px;
+}
+.campEditor-editpage-loadingbar{
+	height: 4px;
+	width: 0%;
+	background-color: #D980FA;
+}
+.campEditor-editpage-loadingbar[started="1"]{
+	transition: all ease-in-out 0.4s;
+	height: 4px;
+	width: 100%;
+	background-color: #D980FA;
+}
+.campEditor-editpage-loadingbar[started="0"]{
+	height: 4px;
+	width: 0%;
+	background-color: #D980FA;
+}
+.loadingbar-completed{
+	opacity: 0;
+}
+
+
+
+
+.campEditor-editpage-form-headline{
+	margin-top: 5px;
+	font-size: 24px;
+	font-family: 'Bai Jamjuree', cursive;
+	color: #141414;
+}
+
+
+
+.campEditor-editpage-createform{
+	height: 642px;
+	width: 100%;
+	position: absolute;
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-right: 300px;
+}
+.campEditor-editpage-form-inputwrapper{
+	height: auto;
+	width: 270px;
+	position: absolute;
+}
+.campEditor-editpage-form-inputwrapper[num="1"]{
+
+}
+.campEditor-editpage-form-inputwrapper[num="2"]{
+	left: 325px;
+}
+.campEditor-editpage-form-inputwrapper[num="3"]{
+	top: 230px;
+	width: 270px;
+}
+.campEditor-editpage-form-inputwrapper[num="4"]{
+	left: 325px;
+	top: 230px;
+	width: 270px;
+}
+
+
+.campEditor-editpage-form-calendarwrapper[num="1"]{
+	top: 184px;
+	position: absolute;
+}
+.campEditor-editpage-form-calendarwrapper[num="2"]{
+	top: 184px;
+	left: 165px;
+	position: absolute;
+}
+
+.campEditor-editpage-form-calendarwrapper-title{
+	height: 20px;
+	top: -27px;
+	font-size: 13px;
+	font-weight: 300;
+	position: absolute;
+	color: #C8CEED;
+	font-family: 'Bai jamjuree';
+
+	font-weight: 600;
+}
+
+
+
+
+.campEditor-editpage-form-contactperson{
+	margin-top: 285px;
+	width: 565px;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.campEditor-editpage-form-contactperson-inputwrapper{
+	padding-top: 1px;
+	height: 200px;
+	width: 270px;
+	position: relative;
+}
+
+
+.campEditor-editpage-form-contactperson-title{
+	height: 20px;
+	top: 0px;
+	font-size: 13px;
+	color: #C8CEED;
+	font-family: 'Bai jamjuree';
+	font-weight: 600;
+	
+	position: absolute;
+}
+.campEditor-editpage-form-noteswrapper{
+	margin-top: 50px;
+	height: auto;
+	width: 565px;
+	position: relative;
+}
+.campEditor-editpage-form-noteswrapper-title{
+	height: 20px;
+	font-size: 13px;
+	position: absolute;
+	top: -30px;
+	font-weight: 300;
+}
+
+
+.campEditor-editpage-form-assignerwrapper{
+	margin-top: 55px;
+	height: auto;
+	position: relative;
+}
+
+.campEditor-editpage-form-stepindicator{
+	height: 8px;
+	width: 58px;
+	position: absolute;
+	left: 250px;
+	top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+.campEditor-editpage-form-stepindicator-unit{
+	border-radius: 20px;
+	height: 5px;
+	width: 25px;
+	background-color: #C8CEED;
+}
+.campEditor-editpage-form-stepindicator-unit[active="1"]{
+	background-color: #141414;
+}
+
+
+
+
+
+
+
+
+.campEditor-editpage-form-btn{
+	line-height: 41.5px;
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+	height: 42px;
+	width: auto;
+	display: inline-block;
+	background-color: #0099FF;
+	font-size: 14px;
+	cursor: pointer;
+	padding-left: 20px;
+	padding-right: 20px;
+	bottom: 40px;
+	right: 115px;
+	position: absolute;
+	font-weight: 600;
+	font-family: 'Bai Jamjuree';
+}
+.campEditor-editpage-form-btn2{
+	line-height: 39px;
+	color: #0A1551;
+	text-align: center;
+	border-radius: 5px;
+	height: 42px;
+	border: 1px solid blue;
+	width: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 14px;
+	cursor: pointer;
+	bottom: 40px;
+	right: 275px;
+	position: absolute;
+	border: 1px solid #C8CEED;
+	font-family: 'Bai Jamjuree';
+}
+.campEditor-editpage-form-btn2[num="1"]{
+	right: 285px;
+}
+.campEditor-editpage-form-btn2:hover{
+	border: 1px solid #0A1551;
+	background-color: #0A1551;
+	color: white;
+}
+
+.campEditor-editpage-createform[surface="0"]{
+	display: none;
+}
+.campEditor-editpage-createform[surface="1"]{
+	display: block;
+}
+.campEditor-editpage-createform2[surface="0"]{
+	display: none;
+}
+.campEditor-editpage-createform2[surface="1"]{
+	display: block;
+}
+.campEditor-editpage-createform2{
+	display: none;
+	height: 642px;
+	width: 100%;
+	top: 4px;
+	position: absolute;
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-right: 300px;
+}

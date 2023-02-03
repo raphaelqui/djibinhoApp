@@ -1,0 +1,108 @@
+.dropdownSmallEigen1{
+	height: 40px;
+	width: 100%;
+	position: relative;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+
+
+
+.dropdownSmallEigen1-h4{
+	cursor: pointer;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-size: 12px;
+	font-weight: 400;
+	color: #57606f;
+	transition: all ease-in-out 0.2s;
+	height: 100%;
+	width: 100%;
+	border-radius: 2px;
+	padding-top: 11.5px;
+	padding-left: 16px;
+	border: 1px solid #C8CEED;
+	border-left: 3px solid #C8CEED;
+	user-select: none;
+}
+.dropdownSmallEigen1-shadow{
+	position: absolute;
+	transition: all ease-in-out 0.2s;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 2px;
+	box-shadow: 0px 0px 0px 0px white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 0px 0px #ff6b81;
+}
+
+.dropdownSmallEigen1-active > .dropdownSmallEigen1-h4{
+	border-left: 3px solid #ff6b81;
+}
+.dropdownSmallEigen1-active > .dropdownSmallEigen1-shadow{
+	background-color: #ff6b81;
+	box-shadow: 0px 0px 5px 1px #ff6b81;
+}
+.dropdownSmallEigen1-active > .dropdownSmallEigen1-img{
+	transform: translateY(-50%) rotate(180deg)
+}
+
+
+.dropdownSmallEigen1-img{
+	height: 14px;
+	transition: all ease-in-out 0.2s;
+	width: auto;
+	position: absolute;
+	right: 25px;
+	top: 52%;
+	transform: translateY(-50%) rotate(0deg);
+}
+
+.dropdownSmallEigen1-input{
+	z-index: 1;
+	cursor: pointer;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	opacity: 0;
+}
+.dropdownSmallEigen1-input-displayNone{
+	display: none;
+}
+
+
+.dropdownSmallEigen1-dropdownList{
+	position: absolute;
+	top: 105%;
+	left: 0px;
+	width: 100%;
+	overflow: hidden;
+	border-radius: 2px;
+	height: 0px;
+	transition: all ease-in-out 0.3s;
+	border: 1px solid #C8CEED;
+	opacity: 0;
+	background-color: white;
+	z-index: 500;
+
+}
+.dropdownSmallEigen1-dropdownList-item{
+	cursor: pointer;
+	width: 100%;
+	margin-bottom: 3.5px;
+	padding: 4px 18px;
+	font-size: 12px;
+	color: #57606f;
+	cursor: pointer;
+}
+.dropdownSmallEigen1-dropdownList-item:nth-child(1){
+	margin-top: 3px;
+}
+.dropdownSmallEigen1-dropdownList-item:hover{
+	background-color: #f1f2f6;
+	
+}

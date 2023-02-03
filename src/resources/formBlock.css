@@ -1,0 +1,114 @@
+
+.formBlock{
+	position: relative;
+	left: -100%;
+	padding: 0px 10px;
+	transition: all ease-in-out 2.3s;
+}
+
+.loginBlock{
+	background-color: rgba(223, 20, 40, .2);
+	background:  none;
+}
+.loginBlock[formblockset="left"]{
+	left: -200%;
+}
+.loginBlock[formblockset="right"]{
+	left: 100%;
+}
+.loginBlock[formblockset="mid"]{
+	left: -100%;;
+}
+
+
+
+
+
+
+.registerBlock{
+}
+.registerBlock[formblockset="mid"]{
+	left: -200%;
+}
+.registerBlock[formblockset="left"]{
+	left: -300%;
+}
+.registerBlock[formblockset="right"]{
+	left: -100%;
+}
+
+
+
+
+.passwordForgotBlock{
+}
+.passwordForgotBlock[formblockset="mid"]{
+	left: 0%;
+}
+.passwordForgotBlock[formblockset="left"]{
+	left: -100%;
+}
+.passwordForgotBlock[formblockset="right"]{
+	left: 100%;
+}
+
+
+
+
+.datenschutzBlock{
+	left: -200%;
+}
+.datenschutzBlock[formblockset="mid"]{
+	left: -300%;
+}
+.datenschutzBlock[formblockset="left"]{
+	left: -400%;
+}
+.datenschutzBlock[formblockset="right"]{
+	left: -200%;
+}
+
+
+
+
+
+.queryRefNumberBlock{
+	left: -300%;
+}
+.queryRefNumberBlock[formblockset="mid"]{
+	left: -400%;
+}
+.queryRefNumberBlock[formblockset="left"]{
+	left: -500%;
+}
+.queryRefNumberBlock[formblockset="right"]{
+	left: -300%;
+}
+
+
+
+
+
+
+
+
+
+.formBlock-p{
+	color: #57606f;
+	font-size: 15px;
+	letter-spacing: 0.25px;
+	font-weight: 300;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.formBlock-p:nth-child(1){
+	margin-top: 0px;
+}
+.marginExtra{
+	height: 400px;
+	width: 100%;
+}
+
+
+
+

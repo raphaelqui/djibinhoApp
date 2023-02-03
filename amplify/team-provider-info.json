@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-djibinhoapp-dev-153126-authRole",
+      "UnauthRoleArn": "arn:aws:iam::053680458735:role/amplify-djibinhoapp-dev-153126-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::053680458735:role/amplify-djibinhoapp-dev-153126-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-djibinhoapp-dev-153126-deployment",
+      "UnauthRoleName": "amplify-djibinhoapp-dev-153126-unauthRole",
+      "StackName": "amplify-djibinhoapp-dev-153126",
+      "StackId": "arn:aws:cloudformation:us-east-1:053680458735:stack/amplify-djibinhoapp-dev-153126/53f3c880-7d4e-11ed-90d7-0ab31aa34771",
+      "AmplifyAppId": "d27c7dx91xxzgy"
+    },
+    "categories": {
+      "auth": {
+        "djibinhoappd1084fcf": {},
+        "djibinhoApp": {}
+      },
+      "api": {
+        "djibinhoapp": {}
+      },
+      "storage": {
+        "imagestorage": {}
+      }
+    }
+  }
+}

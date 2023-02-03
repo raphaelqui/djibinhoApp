@@ -1,0 +1,382 @@
+
+
+
+.campList{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border-radius: 8px;
+	background-color: white;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.08);
+}
+
+
+
+
+.campList-loadingbar{
+	height: 4px;
+	width: 0%;
+	background-color: #D980FA;
+}
+.campList-loadingbar[started="1"]{
+	transition: all ease-in-out 0.4s;
+	height: 4px;
+	width: 100%;
+	background-color: #D980FA;
+}
+.camplist-loadingbar[started="0"]{
+	height: 4px;
+	width: 0%;
+	background-color: #D980FA;
+}
+.loadingbar-completed{
+	opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.campList-sidemenu{
+	height: 642px;
+	width: 100%;
+	position: relative;
+	left: 0px;
+
+}	
+
+
+.campList-sidemenu[surface="0"]{
+	display: none;
+}
+.campList-sidemenu[surface="1"]{
+	display: block;
+}
+
+.campList-sidemenu[id="2"]{
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+
+
+.campList-sidemenu-h3{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	font-size: 22px;
+	font-family: 'Bai Jamjuree', cursive;
+	color: #141414;
+	font-weight: 800;
+}
+
+
+.campList-stepindicator{
+	height: 8px;
+	width: 58px;
+	position: absolute;
+	left: 165px;
+	top: 32px;
+	display: flex;
+	justify-content: space-between;
+}
+.campList-stepindicator-unit{
+	border-radius: 20px;
+	height: 5px;
+	width: 25px;
+	background-color: #C8CEED;
+}	
+.campList-stepindicator-unit[active="1"]{
+	background-color: #141414;
+}
+
+
+
+
+
+
+
+
+.campList-sidemenu-searchcamp{
+	height: auto;
+	width: 100%;
+	position: absolute;
+	top: 32px;
+	left: 0px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+
+
+.campList-sidemenu-startdate{
+	height: auto;
+	width: auto;
+	position: absolute;
+	top: 130px;
+	left: 25px;
+}
+
+.campList-sidemenu-enddate{
+	height: auto;
+	width: auto;
+	position: absolute;
+	top: 130px;
+	left: 125px;
+}
+.campList-sidemenu-startdate-h3{
+	position: absolute;
+	top: -18px;
+	left: 2px;
+	font-size: 13px;
+	color: #C8CEED;
+	font-family: 'Bai jamjuree';
+	font-weight: 500;
+}
+.campList-sidemenu-enddate-h3{
+	position: absolute;
+	top: -18px;
+	left: 2px;
+	font-size: 13px;
+	color: #C8CEED;
+	font-family: 'Bai jamjuree';
+	font-weight: 500;
+}
+
+.campList-sidemenu-btncreatecamp{
+	height: 40px;
+	width: 110px;
+	position: absolute;
+	top: 130px;
+	right: 25px;
+	text-align: center;
+	line-height: 39px;
+	color: #0A1551;
+	text-align: center;
+	border-radius: 4px;
+	border: 1px solid blue;
+	width: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 14px;
+	font-family: 'Bai Jamjuree';
+	cursor: pointer;
+	border: 1px solid #C8CEED;
+}
+.campList-sidemenu-btncreatecamp:hover{
+	border: 1px solid #0A1551;
+	background-color: #0A1551;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.campList-sidemenu-camplist{
+	height: 454px;
+	border-top: 3px solid #EFF0FA;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	overflow-y: scroll;
+}
+
+.campList-sidemenu-camplist-unit{
+	height: 50px;
+	position: relative;
+	width: 100%;
+	cursor: pointer;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+
+.campList-sidemenu-camplist-unit:hover{
+	background-color: #F7FCFD;
+}
+
+.campList-sidemenu-camplist-unit-id{
+	position: absolute;
+	left: 33px;
+	font-size: 13px;
+	font-weight: 600;
+	top: 16.5px;
+	height: auto;
+	width: auto;
+	color: #3d3d3d;
+	font-family: 'Bai Jamjuree';
+}
+.campList-sidemenu-camplist-unit-statuspencil{
+	height: 30px;
+	width: 37px;
+	position: absolute;
+	right: 27px;
+	border-radius: 30px;
+	top: 10px;
+	font-size: 10px;
+	text-align: center;
+	font-weight: 300;
+	line-height: 16px;
+}
+.campList-sidemenu-camplist-unit-status{
+	height: 30px;
+	width: 37px;
+	position: absolute;
+	border-radius: 30px;
+	font-size: 10px;
+	text-align: center;
+	font-weight: 300;
+	line-height: 16px;
+	right: 27px;
+	top: 10px;
+}
+.campList-sidemenu-camplist-unit-status > img{
+	height: 16px;
+	opacity: 0.9;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+}
+.campList-sidemenu-camplist-unit-status > .campList-sidemenu-camplist-unit-status-img2{
+	display: none;
+}
+.campList-sidemenu-camplist-unit-status:hover > .campList-sidemenu-camplist-unit-status-img2{
+	display: block;
+}
+
+.campList-sidemenu-camplist-unit-status:hover{
+	background-color: #0A1551;
+}	
+
+
+.campList-sidemenu-camplist-unit-timespace{
+	position: absolute;
+	top: 18px;
+	right: 200px;
+	height: 20px;
+	width: auto;
+	font-size: 10.5px;
+	font-family: 'Bai Jamjuree';
+	color: grey;
+}
+.campList-sidemenu-camplist-unit-name{
+	position: absolute;
+	left: 150px;
+	font-size: 13px;
+	font-weight: 600;
+	top: 16.5px;
+	height: auto;
+	width: auto;
+	color: #3d3d3d;
+	font-family: 'Bai Jamjuree';
+}
+.campList-sidemenu-camplist-unit-name > p{
+	display: inline-block;	
+	font-weight: 400;
+	font-family: 'Bai Jamjuree';
+	color: grey;
+	font-size: 10.5px;
+}
+
+.campList-sidemenu-camplist-seperator{
+	height: 1px;
+	width: 100%;
+	background-color: #C8CEED;
+	position: relative;
+	left: 0px;
+	opacity: 0.3;
+}
+.campList-sidemenu-camplist-resultnum{
+	position: relative;
+	text-align: center;
+	padding: 15px 0px 10px 0px;
+	font-size: 22px;
+	color: #C8CEED;
+	font-family: 'Bai jamjuree';
+	font-weight: 500;
+}
+
+
+.campList-campname{
+	height: auto;
+	width: 100%;
+	margin-top: 55px;
+	font-size: 18px;
+	font-family: 'Bai Jamjuree';
+	padding-bottom: 10px;
+}
+
+
+.campList-metadata{
+	height: 100px;
+	margin-top: 10px;
+	width: 90%;
+	padding-top: 20px;
+	border-top: 1px solid #C8CEED;
+}
+.campList-metadata-desc{
+	margin-right: 10px;
+	font-size: 13px;
+	color: #C8CEED;
+	font-family: 'Bai jamjuree';
+	font-weight: 600;
+	display: inline;
+}
+.campList-metadata-desc-info{
+	margin-right: 10px;
+	font-size: 13px;
+	color: #141414;
+	font-family: 'Bai jamjuree';
+	font-weight: 500;
+	opacity: 0.8;
+	display: inline-block;
+}
+
+
+
+.campList-sidemenu-btn2{
+	line-height: 39px;
+	color: #0A1551;
+	text-align: center;
+	border-radius: 5px;
+	height: 42px;
+	border: 1px solid blue;
+	width: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 14px;
+	cursor: pointer;
+	bottom: 40px;
+	right: 115px;
+	position: absolute;
+	border: 1px solid #C8CEED;
+	font-family: 'Bai Jamjuree';
+}
+.campList-sidemenu-btn2:hover{
+	border: 1px solid #0A1551;
+	background-color: #0A1551;
+	color: white;
+}
