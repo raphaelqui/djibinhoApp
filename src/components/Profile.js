@@ -967,7 +967,7 @@ class Profile extends Component{
             playerposition: "MF",
             displayObj: {
               dribbling: [13.5, 9.5], // 0: alt 1: neu
-              koordination: [22, 0], // 0: alt 1: neu  
+              koordination: [22, 22], // 0: alt 1: neu  
               schusskraft: [78, 82] // 0: alt 1: neu
             }
 
@@ -1048,11 +1048,11 @@ class Profile extends Component{
 
             primaryDribbling = primaryDribbling-washingtonMinus; 
             primaryKoordination = primaryKoordination-washingtonMinus;
-            primarySchusskraft = primarySchusskraft-washingtonMinus;
+            primarySchusskraft = primarySchusskraft;
 
             secondaryDribbling = secondaryDribbling-washingtonMinus;
             secondaryKoordination = secondaryKoordination-washingtonMinus;
-            secondarySchusskraft = secondarySchusskraft-washingtonMinus;
+            secondarySchusskraft = secondarySchusskraft;
           }
 
 
