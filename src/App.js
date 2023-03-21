@@ -10,7 +10,6 @@ import './resources/general.css';
 import Login from './components/Login.js';
 import Interface from './components/Interface.js';
 import Profile from './components/Profile.js';
-import App333 from './App333.js';
 
 import Load from './Load.js';
 import Handler from './Handler.js';
@@ -129,7 +128,7 @@ class App extends Component{
           <Route path="/" element={<Handler propFn={this.logoutFn} />}/>
           <Route path="/interface" element={<Handler propFn={this.logoutFn} />}/>
           <Route path="/profile" element={<Profile/>}/>
-          <Route path="/list" element={<App333/>}/>
+          
           
         </Routes>
       </AuthContext.Provider>  
