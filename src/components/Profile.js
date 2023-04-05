@@ -1218,12 +1218,12 @@ class Profile extends Component{
       
 
       
-      if(false){
-
+      if(true){
+        window.location.href = "http://www.djibinho.com/countdown";
         return(<div className="profile-restricted">
-                  <h3 className="profile-restricted-font">03.02.2023</h3>
-                  <h1 className="profile-restricted-font">Your playercard will be available soon</h1>
-                  <p className="profile-restricted-font">At the moment we process your data to form your playercard</p>
+                  <h3 className="profile-restricted-font">08.04.2023</h3>
+                  <h1 className="profile-restricted-font">Deine Spielerkarte ist bald verfügbar</h1>
+                  <p className="profile-restricted-font">Zur Zeit werden deine Daten noch deiner Spielerkarte zugewiesen</p>
                </div>);
 
       } else {
