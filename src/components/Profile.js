@@ -373,6 +373,13 @@ class Profile extends Component{
 
     render(){
 
+        window.location.href = "http://www.djibinho.com/countdown";
+        return(<div className="profile-restricted">
+                  <h3 className="profile-restricted-font">08.04.2023</h3>
+                  <h1 className="profile-restricted-font">Deine Spielerkarte ist bald verfügbar</h1>
+                  <p className="profile-restricted-font">Zur Zeit werden deine Daten noch deiner Spielerkarte zugewiesen</p>
+               </div>);
+
 
       if(this.state.started === 0){
         this.startanimation(this);
@@ -1219,12 +1226,7 @@ class Profile extends Component{
 
       
       if(true){
-        window.location.href = "http://www.djibinho.com/countdown";
-        return(<div className="profile-restricted">
-                  <h3 className="profile-restricted-font">08.04.2023</h3>
-                  <h1 className="profile-restricted-font">Deine Spielerkarte ist bald verfügbar</h1>
-                  <p className="profile-restricted-font">Zur Zeit werden deine Daten noch deiner Spielerkarte zugewiesen</p>
-               </div>);
+        
 
       } else {
         return(
