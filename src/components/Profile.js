@@ -62,7 +62,67 @@ import img40 from './../assets/imgs/40.png'; // max
 
 import img41 from './../assets/imgs/41.png'; // anon
 import img42 from './../assets/imgs/42.png'; // anon
-import img43 from './../assets/imgs/anon.png'; // anon
+
+
+import anon from './../assets/imgs/anon.png'; 
+import img50 from './../assets/imgs/50.png'; 
+import img51 from './../assets/imgs/51.png'; 
+import img52 from './../assets/imgs/52.png'; 
+import img53 from './../assets/imgs/53.png'; 
+import img54 from './../assets/imgs/54.png'; 
+import img55 from './../assets/imgs/55.png'; 
+import img56 from './../assets/imgs/56.png'; 
+import img57 from './../assets/imgs/57.png'; 
+import img58 from './../assets/imgs/58.png'; 
+import img59 from './../assets/imgs/59.png'; 
+import img60 from './../assets/imgs/60.png'; 
+import img61 from './../assets/imgs/61.png'; 
+import img62 from './../assets/imgs/62.png'; 
+import img63 from './../assets/imgs/63.png'; 
+import img64 from './../assets/imgs/64.png'; 
+import img65 from './../assets/imgs/65.png'; 
+import img66 from './../assets/imgs/66.png'; 
+import img67 from './../assets/imgs/67.png'; 
+import img68 from './../assets/imgs/68.png'; 
+import img69 from './../assets/imgs/69.png'; 
+import img70 from './../assets/imgs/70.png'; 
+import img71 from './../assets/imgs/71.png'; 
+import img72 from './../assets/imgs/72.png'; 
+import img73 from './../assets/imgs/73.png'; 
+import img74 from './../assets/imgs/74.png'; 
+import img75 from './../assets/imgs/75.png'; 
+import img76 from './../assets/imgs/76.png'; 
+import img77 from './../assets/imgs/77.png'; 
+import img78 from './../assets/imgs/78.png'; 
+import img79 from './../assets/imgs/79.png'; 
+import img80 from './../assets/imgs/80.png'; 
+import img81 from './../assets/imgs/81.png'; 
+import img82 from './../assets/imgs/82.png'; 
+import img83 from './../assets/imgs/83.png'; 
+import img84 from './../assets/imgs/84.png'; 
+import img85 from './../assets/imgs/85.png'; 
+import img86 from './../assets/imgs/86.png'; 
+import img87 from './../assets/imgs/87.png'; 
+import img88 from './../assets/imgs/88.png'; 
+import img89 from './../assets/imgs/89.png'; 
+import img90 from './../assets/imgs/90.png'; 
+import img91 from './../assets/imgs/91.png'; 
+import img92 from './../assets/imgs/92.png'; 
+import img93 from './../assets/imgs/93.png'; 
+import img94 from './../assets/imgs/94.png'; 
+import img95 from './../assets/imgs/95.png'; 
+import img96 from './../assets/imgs/96.png'; 
+import img97 from './../assets/imgs/97.png'; 
+import img98 from './../assets/imgs/98.png'; 
+import img99 from './../assets/imgs/99.png'; 
+import img100 from './../assets/imgs/100.png'; 
+import img101 from './../assets/imgs/101.png'; 
+import img102 from './../assets/imgs/102.png'; 
+import img103 from './../assets/imgs/103.png'; 
+import img104 from './../assets/imgs/104.png'; 
+import img105 from './../assets/imgs/105.png'; 
+
+
 
 
 
@@ -372,14 +432,6 @@ class Profile extends Component{
 
 
     render(){
-
-        window.location.href = "http://www.djibinho.com/countdown";
-        return(<div className="profile-restricted">
-                  <h3 className="profile-restricted-font">08.04.2023</h3>
-                  <h1 className="profile-restricted-font">Deine Spielerkarte ist bald verfügbar</h1>
-                  <p className="profile-restricted-font">Zur Zeit werden deine Daten noch deiner Spielerkarte zugewiesen</p>
-               </div>);
-
 
       if(this.state.started === 0){
         this.startanimation(this);
@@ -979,19 +1031,620 @@ class Profile extends Component{
             }
 
           },
+          // April-Camp
           //______________________________________
           {
             id: 43,
-            vorname: "anon",
-            nachname: "ano",
-            imgSrc: img43,
+            vorname: "Marko",
+            nachname: "Dekic",
+            imgSrc: img56,
             playerposition: "ZM",
             displayObj: {
-              dribbling: [99, 0], // 0: alt 1: neu
-              koordination: [99, 0], // 0: alt 1: neu  
-              schusskraft: [0, 99] // 0: alt 1: neu
+              koordination: [21, 21], // 0: alt 1: neu  
+              dribbling: [14.5, 11], // 0: alt 1: neu
+              schusskraft: [62, 66] // 0: alt 1: neu
             }
+          },
+          //______________________________________
+          {
+            id: 44,
+            vorname: "Ahmad",
+            nachname: "Batalov",
+            imgSrc: img55,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [28, 26.5], // 0: alt 1: neu  
+              dribbling: [13.5, 13], // 0: alt 1: neu
+              schusskraft: [57, 57] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 45,
+            vorname: "Waleed",
+            nachname: "Bakkour",
+            imgSrc: img63,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [22, 20], // 0: alt 1: neu  
+              dribbling: [12, 12], // 0: alt 1: neu
+              schusskraft: [71, 72] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 46,
+            vorname: "Atharv",
+            nachname: "Garg",
+            imgSrc: img54,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [21, 20], // 0: alt 1: neu  
+              dribbling: [15, 12.5], // 0: alt 1: neu
+              schusskraft: [61, 72] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 47,
+            vorname: "Samuel",
+            nachname: "Moss",
+            imgSrc: img82,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [22.5, 19], // 0: alt 1: neu  
+              dribbling: [14.5, 12.5], // 0: alt 1: neu
+              schusskraft: [74, 74] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
 
+          {
+            id: 48,
+            vorname: "Philip",
+            nachname: "Zhang",
+            imgSrc: img58,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [23, 22.5], // 0: alt 1: neu  
+              dribbling: [15, 14.5], // 0: alt 1: neu
+              schusskraft: [65, 65] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 49,
+            vorname: "Konstantin",
+            nachname: "Schevardo",
+            imgSrc: img57,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [29, 29], // 0: alt 1: neu  
+              dribbling: [15.5, 15.5], // 0: alt 1: neu
+              schusskraft: [58, 58] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 50,
+            vorname: "Mohammed",
+            nachname: "Albonni",
+            imgSrc: img78,
+            playerposition: "MF",
+            displayObj: {
+              dribbling: [17, 14.5], // 0: alt 1: neu
+              koordination: [28, 24], // 0: alt 1: neu  
+              schusskraft: [60, 60] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 51,
+            vorname: "Dean",
+            nachname: "Opua",
+            imgSrc: img52,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [22, 20], // 0: alt 1: neu  
+              dribbling: [13.5, 12], // 0: alt 1: neu
+              schusskraft: [72, 72] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 52,
+            vorname: "Siddharth",
+            nachname: "Muralitharan",
+            imgSrc: img59,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [24, 22], // 0: alt 1: neu  
+              dribbling: [16, 14.5], // 0: alt 1: neu
+              schusskraft: [53, 55] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 53,
+            vorname: "Aurelius",
+            nachname: "Kandaz",
+            imgSrc: img61,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [20.5, 20.5], // 0: alt 1: neu  
+              dribbling: [14.5, 16], // 0: alt 1: neu
+              schusskraft: [65, 65] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 54,
+            vorname: "Jonas",
+            nachname: "Mundorf",
+            imgSrc: img83,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [23.5, 22.5], // 0: alt 1: neu  
+              dribbling: [17, 13.5], // 0: alt 1: neu
+              schusskraft: [71, 73] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 55,
+            vorname: "Nahla",
+            nachname: "Bakkour",
+            imgSrc: img69,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [20.5, 20.5], // 0: alt 1: neu  
+              dribbling: [15, 14], // 0: alt 1: neu
+              schusskraft: [68, 68] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 56,
+            vorname: "Milorad",
+            nachname: "Salatik",
+            imgSrc: img84,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [19.5, 19.5], // 0: alt 1: neu  
+              dribbling: [14.5, 13], // 0: alt 1: neu
+              schusskraft: [66, 69] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 57,
+            vorname: "Alexander",
+            nachname: "Blömer",
+            imgSrc: img65,
+            playerposition: "MF",
+            displayObj: {
+              dribbling: [13.5, 9.5], // 0: alt 1: neu
+              koordination: [22, 22], // 0: alt 1: neu  
+              schusskraft: [78, 82] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 58,
+            vorname: "Benedikt",
+            nachname: "Blömer",
+            imgSrc: img68,
+            playerposition: "MF",
+            displayObj: {
+              dribbling: [13.5, 9.5], // 0: alt 1: neu
+              koordination: [22, 22], // 0: alt 1: neu  
+              schusskraft: [78, 82] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 59,
+            vorname: "Johan",
+            nachname: "Ditz",
+            imgSrc: img67,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [22.5, 21], // 0: alt 1: neu  
+              dribbling: [15, 14], // 0: alt 1: neu
+              schusskraft: [64, 72] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 60,
+            vorname: "Aryan",
+            nachname: "Pattan",
+            imgSrc: img64,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [22, 21.5], // 0: alt 1: neu  
+              dribbling: [15, 12], // 0: alt 1: neu
+              schusskraft: [59, 61] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 61,
+            vorname: "Mario",
+            nachname: "Guri",
+            imgSrc: img66,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [32, 32], // 0: alt 1: neu  
+              dribbling: [16, 16], // 0: alt 1: neu
+              schusskraft: [72, 72] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 62,
+            vorname: "Daniel",
+            nachname: "Brakaj",
+            imgSrc: img70,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [28, 27], // 0: alt 1: neu  
+              dribbling: [16, 13], // 0: alt 1: neu
+              schusskraft: [52, 55] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 63,
+            vorname: "Vincent",
+            nachname: "Schweitzer",
+            imgSrc: img75,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [21.5, 21], // 0: alt 1: neu  
+              dribbling: [13.5, 12.5], // 0: alt 1: neu
+              schusskraft: [72, 75] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 64,
+            vorname: "Frederick",
+            nachname: "Siebenhandl",
+            imgSrc: img74,
+            playerposition: "MF",
+            displayObj: {
+              dribbling: [13.5, 13.5], // 0: alt 1: neu
+              koordination: [25.5, 22.5], // 0: alt 1: neu  
+              schusskraft: [65, 65] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          // kein Bild!!!
+          {
+            id: 65,
+            vorname: "Lukas",
+            nachname: "Jüssen",
+            imgSrc: anon,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [25.5, 22], // 0: alt 1: neu  
+              dribbling: [18.5, 13.5], // 0: alt 1: neu
+              schusskraft: [55, 55] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 66,
+            vorname: "Isaac",
+            nachname: "Morgan",
+            imgSrc: img73,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [30, 22], // 0: alt 1: neu  
+              dribbling: [13.5, 11.5], // 0: alt 1: neu
+              schusskraft: [72, 81] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 67,
+            vorname: "Adam",
+            nachname: "Paes",
+            imgSrc: img79,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [23.5, 19], // 0: alt 1: neu  
+              dribbling: [17.5, 11], // 0: alt 1: neu
+              schusskraft: [65, 65] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 68,
+            vorname: "Raymond",
+            nachname: "Lee Okach",
+            imgSrc: img53,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [19, 20], // 0: alt 1: neu  
+              dribbling: [12, 10.5], // 0: alt 1: neu
+              schusskraft: [87, 88] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 69,
+            vorname: "Charlotte",
+            nachname: "Siebenhandl",
+            imgSrc: img80,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [19.5, 19.5], // 0: alt 1: neu  
+              dribbling: [12.5, 12.5], // 0: alt 1: neu
+              schusskraft: [67, 67] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 70,
+            vorname: "Philipp",
+            nachname: "Barthold",
+            imgSrc: img76,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [22, 21], // 0: alt 1: neu  
+              dribbling: [15.5, 14.5], // 0: alt 1: neu
+              schusskraft: [66, 66] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 71,
+            vorname: "Felix",
+            nachname: "Mahlberg",
+            imgSrc: img72,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [28, 26.5], // 0: alt 1: neu  
+              dribbling: [18, 15], // 0: alt 1: neu
+              schusskraft: [59, 59] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 72,
+            vorname: "Moritz",
+            nachname: "Reichling",
+            imgSrc: img100,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [28, 27], // 0: alt 1: neu  
+              dribbling: [16, 14.5], // 0: alt 1: neu
+              schusskraft: [76, 76] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 73,
+            vorname: "Tino",
+            nachname: "Kömpel",
+            imgSrc: 101,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [33, 32], // 0: alt 1: neu  
+              dribbling: [16, 14], // 0: alt 1: neu
+              schusskraft: [57, 63] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 74,
+            vorname: "Younes",
+            nachname: "El Quadir",
+            imgSrc: img105,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [23.5, 22.5], // 0: alt 1: neu  
+              dribbling: [14.5, 12.5], // 0: alt 1: neu
+              schusskraft: [60, 60] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 75,
+            vorname: "Nick",
+            nachname: "Sezari",
+            imgSrc: img102,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [29.5, 28.5], // 0: alt 1: neu  
+              dribbling: [17, 14.5], // 0: alt 1: neu
+              schusskraft: [75, 75] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 76,
+            vorname: "Dean André",
+            nachname: "Daum",
+            imgSrc: img89,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [24, 23], // 0: alt 1: neu  
+              dribbling: [18, 16.5], // 0: alt 1: neu
+              schusskraft: [66, 71] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 77,
+            vorname: "Joshua",
+            nachname: "Klein",
+            imgSrc: img50,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [33, 33], // 0: alt 1: neu  
+              dribbling: [19, 17.5], // 0: alt 1: neu
+              schusskraft: [53, 58] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 78,
+            vorname: "David",
+            nachname: "Hetzel",
+            imgSrc: img88,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [33.5, 32.5], // 0: alt 1: neu  
+              dribbling: [20.5, 19], // 0: alt 1: neu
+              schusskraft: [62, 63] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 79,
+            vorname: "Henry",
+            nachname: "Grohs",
+            imgSrc: img82,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [30, 29.5], // 0: alt 1: neu  
+              dribbling: [18, 17.5], // 0: alt 1: neu
+              schusskraft: [61, 70] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 80,
+            vorname: "Gabrielle",
+            nachname: "Geschke",
+            imgSrc: img91,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [39, 37], // 0: alt 1: neu  
+              dribbling: [24, 20], // 0: alt 1: neu
+              schusskraft: [38, 42] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 81,
+            vorname: "Tobias",
+            nachname: "Kern",
+            imgSrc: img87,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [33.5, 31.5], // 0: alt 1: neu  
+              dribbling: [18, 16.5], // 0: alt 1: neu
+              schusskraft: [62, 62] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 82,
+            vorname: "Felix",
+            nachname: "Weiler",
+            imgSrc: img97,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [38.5, 37.5], // 0: alt 1: neu  
+              dribbling: [20, 19], // 0: alt 1: neu
+              schusskraft: [56, 59] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          // kein bild
+          {
+            id: 83,
+            vorname: "Nathan",
+            nachname: "Heid",
+            imgSrc: img94,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [32, 30.5], // 0: alt 1: neu  
+              dribbling: [27, 21], // 0: alt 1: neu
+              schusskraft: [41, 57] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 84,
+            vorname: "Philip",
+            nachname: "Traoré",
+            imgSrc: img95,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [44, 43], // 0: alt 1: neu  
+              dribbling: [25.5, 18.5], // 0: alt 1: neu
+              schusskraft: [44, 61] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 85,
+            vorname: "Alan",
+            nachname: "Göncü",
+            imgSrc: img96,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [35, 33.5], // 0: alt 1: neu  
+              dribbling: [24, 17], // 0: alt 1: neu
+              schusskraft: [47, 55] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 86,
+            vorname: "Rainer",
+            nachname: "Geschke",
+            imgSrc: img93,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [44.5, 43], // 0: alt 1: neu  
+              dribbling: [23.5, 20], // 0: alt 1: neu
+              schusskraft: [41, 55] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 87,
+            vorname: "Ewald",
+            nachname: "Hetzel",
+            imgSrc: img98,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [59.5, 56.5], // 0: alt 1: neu  
+              dribbling: [36.5, 25], // 0: alt 1: neu
+              schusskraft: [38, 38] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 88,
+            vorname: "Florian",
+            nachname: "Mundorf",
+            imgSrc: img81,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [23.5, 22.5], // 0: alt 1: neu  
+              dribbling: [15, 12.5], // 0: alt 1: neu
+              schusskraft: [70, 70] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 89,
+            vorname: "Milad",
+            nachname: "Etjemaee",
+            imgSrc: img71,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [28, 20], // 0: alt 1: neu  
+              dribbling: [15, 11.5], // 0: alt 1: neu
+              schusskraft: [79, 79] // 0: alt 1: neu
+            }
           },
 
       ];
