@@ -432,6 +432,8 @@ class Profile extends Component{
 
 
     render(){
+        
+          window.location.href = "https://djibinho.com/countdown/";
 
       if(this.state.started === 0){
         this.startanimation(this);
@@ -465,7 +467,7 @@ class Profile extends Component{
             imgSrc: img2,
             playerposition: "ZM",
             displayObj: {
-              dribbling: [12, 9.5], // 0: alt 1: neu
+              dribbling: [12, 9.5], // 0: alt 1: neuhttps://www.djibinho.com/countdown/
               koordination: [19, 18], // 0: alt 1: neu  
               schusskraft: [74, 74] // 0: alt 1: neu
             }
