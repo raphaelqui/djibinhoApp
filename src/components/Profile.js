@@ -149,7 +149,7 @@ import img124 from './../assets/imgs/124.png';
 
 
 
-
+ 
 
 import '../resources/profile.css';
 
