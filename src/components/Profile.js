@@ -454,7 +454,6 @@ class Profile extends Component{
 
     render(){
         
-          window.location.href = "https://djibinho.com/countdown/";
 
       if(this.state.started === 0){
         this.startanimation(this);
