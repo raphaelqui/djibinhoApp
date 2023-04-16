@@ -454,7 +454,7 @@ class Profile extends Component{
 
     render(){
      
-     window.location.href = "https://www.djibinho.com/countdown/"; 
+      // window.location.href = "https://www.djibinho.com/countdown/"; 
         
 
       if(this.state.started === 0){
