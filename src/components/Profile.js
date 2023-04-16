@@ -1714,7 +1714,7 @@ class Profile extends Component{
             id: 93,
             vorname: "Rojhat",
             nachname: "Sari",
-            imgSrc: img71,
+            imgSrc: img109,
             playerposition: "MF",
             displayObj: {
               koordination: [20, 10.5], // 0: alt 1: neu  
@@ -1937,12 +1937,7 @@ class Profile extends Component{
       var profileId = location.search;
       if(profileId != ""){
         profileId = profileId.split("id=")[1];
-        if(isNaN(parseFloat(profileId[1]))){
-            profileId = profileId[0];
-        } else {
-            profileId = profileId[0]+""+profileId[1];
-        }
-
+        profileId = profileId+"";
         if(profileId){
           // diese id ist vom Camp in Washington
           
