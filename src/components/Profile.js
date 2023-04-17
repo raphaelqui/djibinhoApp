@@ -710,7 +710,7 @@ class Profile extends Component{
             id: 18,
             vorname: "Mika",
             nachname: "Fischer",
-            imgSrc: img18,
+            imgSrc: img51,
             playerposition: "ZM",
             displayObj: {
               dribbling: [13.5, 11], // 0: alt 1: neu
@@ -850,7 +850,7 @@ class Profile extends Component{
             id: 28,
             vorname: "Lars",
             nachname: "Fischer",
-            imgSrc: img28,
+            imgSrc: img99,
             playerposition: "ZM",
             displayObj: {
               dribbling: [19.5, 13], // 0: alt 1: neu
