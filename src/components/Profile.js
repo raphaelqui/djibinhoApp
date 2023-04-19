@@ -713,9 +713,9 @@ class Profile extends Component{
             imgSrc: img51,
             playerposition: "ZM",
             displayObj: {
-              dribbling: [13.5, 11], // 0: alt 1: neu
-              koordination: [26, 24], // 0: alt 1: neu  
-              schusskraft: [66, 66] // 0: alt 1: neu
+              dribbling: [13.5, 12], // 0: alt 1: neu
+              koordination: [19.5, 18.5], // 0: alt 1: neu  
+              schusskraft: [67, 68] // 0: alt 1: neu
             }
 
           },
@@ -853,9 +853,9 @@ class Profile extends Component{
             imgSrc: img99,
             playerposition: "ZM",
             displayObj: {
-              dribbling: [19.5, 13], // 0: alt 1: neu
-              koordination: [32, 31], // 0: alt 1: neu  
-              schusskraft: [48, 48] // 0: alt 1: neu
+              dribbling: [18.5, 17.5], // 0: alt 1: neu
+              koordination: [39, 38], // 0: alt 1: neu  
+              schusskraft: [54, 55] // 0: alt 1: neu
             }
 
           },
