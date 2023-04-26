@@ -1967,8 +1967,9 @@ class Profile extends Component{
           var primaryKoordination = this.table(displayObj.koordination[1], 1);
           var primarySchusskraft = this.table(displayObj.schusskraft[1], 3);
 
-          var playerposition = profile.playerposition;
-          
+          //var playerposition = profile.playerposition;
+          var playerposition = "ALL";          
+
           //Werte zu Punkte machen
 
           var primaryAverage = Math.floor((primaryDribbling+primaryKoordination+primarySchusskraft)/3);
