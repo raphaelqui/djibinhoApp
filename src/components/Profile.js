@@ -2250,9 +2250,9 @@ class Profile extends Component{
             imgSrc: img124,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
+              koordination: [28, 34], // 0: alt 1: neu  
               dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+              schusskraft: [83, 86] // 0: alt 1: neu
             }
           },
           //______________________________________
