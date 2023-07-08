@@ -176,7 +176,7 @@ import img144 from './../assets/imgs/144.png';
 import img145 from './../assets/imgs/145.png';
 import img146 from './../assets/imgs/146.png';
 import img147 from './../assets/imgs/147.png';
-
+import img148 from './../assets/imgs/148.png';
 
 
 
