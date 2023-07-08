@@ -60,9 +60,19 @@ import img38 from './../assets/imgs/38.png'; // leo
 import img39 from './../assets/imgs/39.png'; // mateo
 import img40 from './../assets/imgs/40.png'; // max
 
-import img41 from './../assets/imgs/41.png'; // anon
-import img42 from './../assets/imgs/42.png'; // anon
+import img41 from './../assets/imgs/41.png'; 
+import img42 from './../assets/imgs/42.png'; 
 
+/*
+import img43 from './../assets/imgs/43.png'; 
+import img44 from './../assets/imgs/44.png'; 
+import img45 from './../assets/imgs/45.png'; 
+import img46 from './../assets/imgs/46.png'; 
+import img47 from './../assets/imgs/47.png'; 
+import img48 from './../assets/imgs/48.png'; 
+import img49 from './../assets/imgs/49.png'; 
+import img50 from './../assets/imgs/50.png'; 
+*/
 
 import anon from './../assets/imgs/anon.png'; 
 import img50 from './../assets/imgs/50.png'; 
@@ -143,13 +153,35 @@ import img123 from './../assets/imgs/123.png';
 import img124 from './../assets/imgs/124.png'; 
 
 
+import img125 from './../assets/imgs/125.png';
+import img126 from './../assets/imgs/126.png';
+import img127 from './../assets/imgs/127.png';
+import img128 from './../assets/imgs/128.png';
+import img129 from './../assets/imgs/129.png';
+import img130 from './../assets/imgs/130.png';
+import img131 from './../assets/imgs/131.png';
+import img132 from './../assets/imgs/132.png';
+import img133 from './../assets/imgs/133.png';
+import img134 from './../assets/imgs/134.png';
+import img135 from './../assets/imgs/135.png';
+import img136 from './../assets/imgs/136.png';
+import img137 from './../assets/imgs/137.png';
+import img138 from './../assets/imgs/138.png';
+import img139 from './../assets/imgs/139.png';
+import img140 from './../assets/imgs/140.png';
+import img141 from './../assets/imgs/141.png';
+import img142 from './../assets/imgs/142.png';
+import img143 from './../assets/imgs/143.png';
+import img144 from './../assets/imgs/144.png';
+import img145 from './../assets/imgs/145.png';
+import img146 from './../assets/imgs/146.png';
+import img147 from './../assets/imgs/147.png';
 
 
 
 
 
 
- 
 
 import '../resources/profile.css';
 
@@ -453,9 +485,8 @@ class Profile extends Component{
 
 
     render(){
-     
-      // window.location.href = "https://www.djibinho.com/countdown/"; 
-        
+
+      
 
       if(this.state.started === 0){
         this.startanimation(this);
@@ -475,9 +506,9 @@ class Profile extends Component{
             imgSrc: img1,
             playerposition: "ZM",
             displayObj: {
-              dribbling: [12, 9.5], // 0: alt 1: neu
-              koordination: [18, 18], // 0: alt 1: neu  
-              schusskraft: [89, 89] // 0: alt 1: neu
+              koordination: [22, 20.5], // 0: alt 1: neu  
+              dribbling: [11, 9.5], // 0: alt 1: neu
+              schusskraft: [64, 83] // 0: alt 1: neu
             }
 
           },
@@ -485,13 +516,13 @@ class Profile extends Component{
           {
             id: 2,
             vorname: "Niklas",
-            nachname: "Ebeling",
+            nachname: "Blum",
             imgSrc: img2,
             playerposition: "ZM",
             displayObj: {
-              dribbling: [12, 9.5], // 0: alt 1: neuhttps://www.djibinho.com/countdown/
-              koordination: [19, 18], // 0: alt 1: neu  
-              schusskraft: [74, 74] // 0: alt 1: neu
+              koordination: [17, 17], // 0: alt 1: neu  
+              dribbling: [12, 9.5], // 0: alt 1: neu
+              schusskraft: [68, 68] // 0: alt 1: neu
             }
 
           },
@@ -503,9 +534,9 @@ class Profile extends Component{
             imgSrc: img3,
             playerposition: "ZM",
             displayObj: {
-              dribbling: [13, 10], // 0: alt 1: neu
-              koordination: [19.5, 18.5], // 0: alt 1: neu  
-              schusskraft: [95, 97] // 0: alt 1: neu
+              koordination: [20, 19], // 0: alt 1: neu  
+              dribbling: [10, 10], // 0: alt 1: neu
+              schusskraft: [72, 85] // 0: alt 1: neu
             }
 
           },
@@ -517,9 +548,9 @@ class Profile extends Component{
             imgSrc: img4,
             playerposition: "ZM",
             displayObj: {
-              dribbling: [11.5, 9.5], // 0: alt 1: neu
-              koordination: [18.5, 17.5], // 0: alt 1: neu  
-              schusskraft: [88, 88] // 0: alt 1: neu
+              koordination: [20.5, 19], // 0: alt 1: neu  
+              dribbling: [10, 8], // 0: alt 1: neu
+              schusskraft: [78, 78] // 0: alt 1: neu
             }
 
           },
@@ -545,9 +576,9 @@ class Profile extends Component{
             imgSrc: img6,
             playerposition: "ZM",
             displayObj: {
-              dribbling: [13.5, 11], // 0: alt 1: neu
-              koordination: [21, 20], // 0: alt 1: neu  
-              schusskraft: [65, 70] // 0: alt 1: neu
+              koordination: [22, 21], // 0: alt 1: neu  
+              dribbling: [10, 9.5], // 0: alt 1: neu
+              schusskraft: [65, 65] // 0: alt 1: neu
             }
 
           },
@@ -573,9 +604,9 @@ class Profile extends Component{
             imgSrc: img21,
             playerposition: "ZM",
             displayObj: {
-              dribbling: [13, 9], // 0: alt 1: neu
-              koordination: [16, 18], // 0: alt 1: neu  
-              schusskraft: [75, 77] // 0: alt 1: neu
+              koordination: [19.5, 19.5], // 0: alt 1: neu  
+              dribbling: [10, 10], // 0: alt 1: neu
+              schusskraft: [66, 66] // 0: alt 1: neu
             }
 
           },
@@ -611,13 +642,13 @@ class Profile extends Component{
           {
             id: 11,
             vorname: "Malte",
-            nachname: "Ebeling",
+            nachname: "Blum",
             imgSrc: img11,
             playerposition: "ZM",
             displayObj: {
-              dribbling: [11.5, 10], // 0: alt 1: neu
-              koordination: [20.5, 19.5], // 0: alt 1: neu  
-              schusskraft: [60, 60] // 0: alt 1: neu
+              koordination: [19.5, 18.5], // 0: alt 1: neu  
+              dribbling: [9.5, 7.5], // 0: alt 1: neu
+              schusskraft: [60, 61] // 0: alt 1: neu
             }
 
           },
@@ -629,9 +660,9 @@ class Profile extends Component{
             imgSrc: img12,
             playerposition: "ZM",
             displayObj: {
-              dribbling: [14.5, 12], // 0: alt 1: neu
-              koordination: [28, 27], // 0: alt 1: neu  
-              schusskraft: [61, 61] // 0: alt 1: neu
+              koordination: [27, 26], // 0: alt 1: neu  
+              dribbling: [16.5, 14], // 0: alt 1: neu
+              schusskraft: [63, 68] // 0: alt 1: neu
             }
 
           },
@@ -685,9 +716,9 @@ class Profile extends Component{
             imgSrc: img16,
             playerposition: "ZM",
             displayObj: {
-              dribbling: [15.5, 12], // 0: alt 1: neu
-              koordination: [27, 26], // 0: alt 1: neu  
-              schusskraft: [80, 80] // 0: alt 1: neu
+              koordination: [27, 20.5], // 0: alt 1: neu  
+              dribbling: [15.5, 13], // 0: alt 1: neu
+              schusskraft: [71, 73] // 0: alt 1: neu
             }
 
           },
@@ -713,8 +744,8 @@ class Profile extends Component{
             imgSrc: img51,
             playerposition: "ZM",
             displayObj: {
-              dribbling: [13.5, 12], // 0: alt 1: neu
               koordination: [19.5, 18.5], // 0: alt 1: neu  
+              dribbling: [13.5, 12], // 0: alt 1: neu
               schusskraft: [67, 68] // 0: alt 1: neu
             }
 
@@ -727,9 +758,9 @@ class Profile extends Component{
             imgSrc: img19,
             playerposition: "ZM",
             displayObj: {
-              dribbling: [16.5, 13], // 0: alt 1: neu
-              koordination: [26.5, 25.5], // 0: alt 1: neu  
-              schusskraft: [66, 66] // 0: alt 1: neu
+              koordination: [24, 23], // 0: alt 1: neu  
+              dribbling: [18.5, 15.5], // 0: alt 1: neu
+              schusskraft: [68, 72] // 0: alt 1: neu
             }
 
           },
@@ -769,9 +800,9 @@ class Profile extends Component{
             imgSrc: img22,
             playerposition: "ZM",
             displayObj: {
-              dribbling: [16, 11.5], // 0: alt 1: neu
-              koordination: [25.5, 23.5], // 0: alt 1: neu  
-              schusskraft: [62, 62] // 0: alt 1: neu
+              koordination: [25.5, 28.5], // 0: alt 1: neu  
+              dribbling: [12,5, 12.5], // 0: alt 1: neu
+              schusskraft: [73, 73] // 0: alt 1: neu
             }
 
           },
@@ -797,9 +828,9 @@ class Profile extends Component{
             imgSrc: img24,
             playerposition: "ZM",
             displayObj: {
-              dribbling: [16, 13.5], // 0: alt 1: neu
-              koordination: [27.5, 26.5], // 0: alt 1: neu  
-              schusskraft: [47, 57] // 0: alt 1: neu
+              koordination: [29, 29], // 0: alt 1: neu  
+              dribbling: [16, 12.5], // 0: alt 1: neu
+              schusskraft: [47, 60] // 0: alt 1: neu
             }
 
           },
@@ -808,12 +839,12 @@ class Profile extends Component{
             id: 25,
             vorname: "Elijah",
             nachname: "tegegne",
-            imgSrc: img25,
+            imgSrc: img147,
             playerposition: "ZM",
             displayObj: {
-              dribbling: [14.5, 14], // 0: alt 1: neu
-              koordination: [26, 25], // 0: alt 1: neu  
-              schusskraft: [57, 60] // 0: alt 1: neu
+              koordination: [26, 25],
+      dribbling: [13, 12],
+      schusskraft: [67, 67]
             }
 
           },
@@ -853,8 +884,8 @@ class Profile extends Component{
             imgSrc: img99,
             playerposition: "ZM",
             displayObj: {
-              dribbling: [18.5, 17.5], // 0: alt 1: neu
               koordination: [39, 38], // 0: alt 1: neu  
+              dribbling: [18.5, 17.5], // 0: alt 1: neu
               schusskraft: [54, 55] // 0: alt 1: neu
             }
 
@@ -867,9 +898,9 @@ class Profile extends Component{
             imgSrc: img29,
             playerposition: "ZM",
             displayObj: {
-              dribbling: [22, 15], // 0: alt 1: neu
-              koordination: [37, 36], // 0: alt 1: neu  
-              schusskraft: [47, 48] // 0: alt 1: neu
+              koordination: [21.5, 21.5], // 0: alt 1: neu  
+              dribbling: [16, 15.5], // 0: alt 1: neu
+              schusskraft: [57, 60] // 0: alt 1: neu
             }
 
           },
@@ -1055,6 +1086,8 @@ class Profile extends Component{
             }
 
           },
+
+
           // April-Camp
           //______________________________________
           {
@@ -1100,12 +1133,12 @@ class Profile extends Component{
             id: 46,
             vorname: "Atharv",
             nachname: "Garg",
-            imgSrc: img54,
+            imgSrc: img140,
             playerposition: "MF",
             displayObj: {
-              koordination: [21, 20], // 0: alt 1: neu  
-              dribbling: [15, 12.5], // 0: alt 1: neu
-              schusskraft: [61, 72] // 0: alt 1: neu
+              koordination: [22, 21],
+      dribbling: [13, 11],
+      schusskraft: [61, 65]
             }
           },
           //______________________________________
@@ -1286,9 +1319,9 @@ class Profile extends Component{
             imgSrc: img64,
             playerposition: "MF",
             displayObj: {
-              koordination: [22, 21.5], // 0: alt 1: neu  
-              dribbling: [15, 12], // 0: alt 1: neu
-              schusskraft: [59, 61] // 0: alt 1: neu
+              koordination: [21, 21], // 0: alt 1: neu  
+              dribbling: [10.5, 10.5], // 0: alt 1: neu
+              schusskraft: [55, 55] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -1375,12 +1408,12 @@ class Profile extends Component{
             id: 67,
             vorname: "Adam",
             nachname: "Paes",
-            imgSrc: img79,
+            imgSrc: img110,
             playerposition: "MF",
             displayObj: {
-              koordination: [23.5, 19], // 0: alt 1: neu  
-              dribbling: [17.5, 11], // 0: alt 1: neu
-              schusskraft: [65, 65] // 0: alt 1: neu
+              koordination: [26, 25],
+      dribbling: [17, 15],
+      schusskraft: [71, 71]
             }
           },
           //______________________________________
@@ -1670,6 +1703,13 @@ class Profile extends Component{
               schusskraft: [79, 79] // 0: alt 1: neu
             }
           },
+
+
+
+
+
+
+
           //______________________________________
           {
             id: 90,
@@ -1792,12 +1832,12 @@ class Profile extends Component{
             id: 99,
             vorname: "Efram",
             nachname: "Nangoy",
-            imgSrc: img115,
+            imgSrc: img136,
             playerposition: "MF",
             displayObj: {
-              koordination: [25, 24], // 0: alt 1: neu  
-              dribbling: [12.5, 9.5], // 0: alt 1: neu
-              schusskraft: [56, 56] // 0: alt 1: neu
+              koordination: [69, 69],
+      dribbling: [12, 12],
+      schusskraft: [22, 21]
             }
           },
           //______________________________________
@@ -1831,12 +1871,12 @@ class Profile extends Component{
             id: 102,
             vorname: "Christian",
             nachname: "Dohrn",
-            imgSrc: img118,
+            imgSrc: img138,
             playerposition: "MF",
             displayObj: {
-              koordination: [24, 21.5], // 0: alt 1: neu  
-              dribbling: [11.5, 10], // 0: alt 1: neu
-              schusskraft: [56, 61] // 0: alt 1: neu
+              koordination: [26, 25],
+      dribbling: [13, 13],
+      schusskraft: [65, 66]
             }
           },
           //______________________________________
@@ -1932,15 +1972,28 @@ class Profile extends Component{
           },
           //______________________________________
           {
-            id: 110,
-            vorname: "Angelos",
-            nachname: "Kassner",
+            id: 125,
+            vorname: "Justus",
+            nachname: "Bayer",
             imgSrc: img124,
             playerposition: "MF",
             displayObj: {
               koordination: [28, 20], // 0: alt 1: neu  
               dribbling: [15, 11.5], // 0: alt 1: neu
               schusskraft: [79, 79] // 0: alt 1: neu
+            }
+          },
+          //______________________________________
+          {
+            id: 110,
+            vorname: "Angelos",
+            nachname: "Kassner",
+            imgSrc: img141,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [77, 77],
+      dribbling: [12, 11],
+      schusskraft: [29, 27]
             }
           },
           //______________________________________
@@ -2042,9 +2095,9 @@ class Profile extends Component{
             imgSrc: img124,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+               koordination: [26.5, 25],
+      dribbling: [13, 12],
+      schusskraft: [72, 73]
             }
           },
           //______________________________________
@@ -2065,12 +2118,12 @@ class Profile extends Component{
             id: 120,
             vorname: "Leonard",
             nachname: "Schönborn",
-            imgSrc: img124,
+            imgSrc: img131,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+              koordination: [24, 22],
+      dribbling: [15, 12],
+      schusskraft: [72, 72]
             }
           },
           //______________________________________
@@ -2104,12 +2157,12 @@ class Profile extends Component{
             id: 123,
             vorname: "Jakob",
             nachname: "Wörmann",
-            imgSrc: img124,
+            imgSrc: img1,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+               koordination: [67, 69],
+      dribbling: [22, 17],
+      schusskraft: [24, 23]
             }
           },
           //______________________________________
@@ -2138,7 +2191,7 @@ class Profile extends Component{
               schusskraft: [79, 79] // 0: alt 1: neu
             }
           },
-          //______________________________________
+           //______________________________________
           {
             id: 126,
             vorname: "Leon",
@@ -2156,12 +2209,12 @@ class Profile extends Component{
             id: 127,
             vorname: "Robert",
             nachname: "Schatz",
-            imgSrc: img124,
+            imgSrc: img143,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+              koordination: [29, 28],
+      dribbling: [22, 18],
+      schusskraft: [56, 57]
             }
           },
           //______________________________________
@@ -2169,12 +2222,12 @@ class Profile extends Component{
             id: 128,
             vorname: "Valentin",
             nachname: "Leneschmidt",
-            imgSrc: img124,
+            imgSrc: img142,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+               koordination: [29, 27],
+      dribbling: [21, 16],
+      schusskraft: [80, 80]
             }
           },
           //______________________________________
@@ -2234,7 +2287,7 @@ class Profile extends Component{
             id: 133,
             vorname: "Jakob",
             nachname: "Milch",
-            imgSrc: img124,
+            imgSrc: anon,
             playerposition: "MF",
             displayObj: {
               koordination: [28, 20], // 0: alt 1: neu  
@@ -2247,12 +2300,12 @@ class Profile extends Component{
             id: 134,
             vorname: "Julius",
             nachname: "Diel",
-            imgSrc: img124,
+            imgSrc: "img133",
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 34], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [83, 86] // 0: alt 1: neu
+              koordination: [21, 21],
+              dribbling: [13, 12],
+              schusskraft: [83, 84]
             }
           },
           //______________________________________
@@ -2273,12 +2326,12 @@ class Profile extends Component{
             id: 136,
             vorname: "Levent",
             nachname: "Müller",
-            imgSrc: img124,
+            imgSrc: img127,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+              koordination: [27, 26],
+      dribbling: [17, 17],
+      schusskraft: [73, 73]
             }
           },
           //______________________________________
@@ -2286,12 +2339,12 @@ class Profile extends Component{
             id: 137,
             vorname: "Maik",
             nachname: "Kreek",
-            imgSrc: img124,
+            imgSrc: img125,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+              koordination: [68, 68],
+      dribbling: [17, 13],
+      schusskraft: [28, 26]
             }
           },
           //______________________________________
@@ -2299,12 +2352,12 @@ class Profile extends Component{
             id: 138,
             vorname: "Jasper",
             nachname: "Juhre",
-            imgSrc: img124,
+            imgSrc: img132,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+              koordination: [29, 27],
+      dribbling: [19, 16],
+      schusskraft: [50, 51]
             }
           },
           //______________________________________
@@ -2312,12 +2365,12 @@ class Profile extends Component{
             id: 139,
             vorname: "Mats",
             nachname: "Sonntag",
-            imgSrc: img124,
+            imgSrc: anon,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+               koordination: [26.5, 25],
+      dribbling: [13, 12],
+      schusskraft: [72, 73]
             }
           },
           //______________________________________
@@ -2325,12 +2378,12 @@ class Profile extends Component{
             id: 140,
             vorname: "Agustin",
             nachname: "Saenz Correia",
-            imgSrc: img124,
+            imgSrc: img128,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+              koordination: [24, 23],
+      dribbling: [13, 12],
+      schusskraft: [70, 73]
             }
           },
           //______________________________________
@@ -2338,12 +2391,12 @@ class Profile extends Component{
             id: 141,
             vorname: "Benedikt",
             nachname: "Bachmann",
-            imgSrc: img124,
+            imgSrc: img139,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+              koordination: [25.5, 24],
+      dribbling: [13, 13],
+      schusskraft: [57, 63]
             }
           },
           //______________________________________
@@ -2351,12 +2404,12 @@ class Profile extends Component{
             id: 142,
             vorname: "Ednan",
             nachname: "Müller",
-            imgSrc: img124,
+            imgSrc: img137,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+               koordination: [33, 32],
+      dribbling: [13, 12],
+      schusskraft: [67, 68]
             }
           },
           //______________________________________
@@ -2364,12 +2417,12 @@ class Profile extends Component{
             id: 143,
             vorname: "Otto",
             nachname: "Juhre",
-            imgSrc: img124,
+            imgSrc: img144,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+              koordination: [29, 27],
+      dribbling: [14, 14],
+      schusskraft: [53, 54]
             }
           },
           //______________________________________
@@ -2377,12 +2430,12 @@ class Profile extends Component{
             id: 144,
             vorname: "Junis",
             nachname: "Haseloff",
-            imgSrc: img124,
+            imgSrc: img146,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+               koordination: [25, 24.5],
+      dribbling: [13, 13],
+      schusskraft: [60, 62]
             }
           },
           //______________________________________
@@ -2390,12 +2443,12 @@ class Profile extends Component{
             id: 145,
             vorname: "Adam",
             nachname: "Zizaouaghin",
-            imgSrc: img124,
+            imgSrc: img130,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+              koordination: [23.5, 22],
+      dribbling: [13, 11],
+      schusskraft: [67, 67]
             }
           },
           //______________________________________
@@ -2403,12 +2456,12 @@ class Profile extends Component{
             id: 146,
             vorname: "Nehan",
             nachname: "Sandara",
-            imgSrc: img124,
+            imgSrc: img145,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+              koordination: [25, 24],
+      dribbling: [12, 11],
+      schusskraft: [57, 60]
             }
           },
           //______________________________________
@@ -2416,12 +2469,12 @@ class Profile extends Component{
             id: 147,
             vorname: "Luz",
             nachname: "Saenz Correia",
-            imgSrc: img124,
+            imgSrc: img126,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+              koordination: [42, 39],
+      dribbling: [24, 22],
+      schusskraft: [38, 39]
             }
           },
           //______________________________________
@@ -2429,12 +2482,12 @@ class Profile extends Component{
             id: 148,
             vorname: "Elian",
             nachname: "Breuer",
-            imgSrc: img124,
+            imgSrc: img135,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+              koordination: [24, 22],
+      dribbling: [12, 9],
+      schusskraft: [71, 72]
             }
           },
           //______________________________________
@@ -2442,24 +2495,24 @@ class Profile extends Component{
             id: 149,
             vorname: "Hannes",
             nachname: "Lehmann",
-            imgSrc: img124,
+            imgSrc: "img134",
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+              koordination: [16, 15],
+              dribbling: [9, 9],
+              schusskraft: [72, 72]
             }
-          },
-
-
-
+          }
       ];
 
+    
+      
 
       var profileId = location.search;
       if(profileId != ""){
         profileId = profileId.split("id=")[1];
         profileId = profileId+"";
+
         if(profileId){
           // diese id ist vom Camp in Washington
           
@@ -2489,9 +2542,8 @@ class Profile extends Component{
           var primaryKoordination = this.table(displayObj.koordination[1], 1);
           var primarySchusskraft = this.table(displayObj.schusskraft[1], 3);
 
-          //var playerposition = profile.playerposition;
-          var playerposition = "ALL";          
-
+          var playerposition = profile.playerposition;
+          
           //Werte zu Punkte machen
 
           var primaryAverage = Math.floor((primaryDribbling+primaryKoordination+primarySchusskraft)/3);
@@ -2504,6 +2556,7 @@ class Profile extends Component{
 
 
           if(profileId > 30){
+
             var washingtonMinus = 8; 
             primaryAverage = primaryAverage-washingtonMinus;
             secondaryAverage = secondaryAverage-washingtonMinus;
@@ -2680,8 +2733,9 @@ class Profile extends Component{
       
 
       
-      if(true){
-        window.location.href="https://www.djibinho.com/countdown/";
+      if(false){
+
+
 
       } else {
         return(
