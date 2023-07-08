@@ -2286,13 +2286,13 @@ class Profile extends Component{
           {
             id: 133,
             vorname: "Jakob",
-            nachname: "Milch",
-            imgSrc: anon,
+            nachname: "Milich",
+            imgSrc: img148,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+              koordination: [67, 69],
+      dribbling: [22, 17],
+      schusskraft: [24, 23]
             }
           },
           //______________________________________
