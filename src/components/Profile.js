@@ -177,7 +177,29 @@ import img145 from './../assets/imgs/145.png';
 import img146 from './../assets/imgs/146.png';
 import img147 from './../assets/imgs/147.png';
 import img148 from './../assets/imgs/148.png';
-
+import img149 from './../assets/imgs/149.png';
+import img150 from './../assets/imgs/150.png';
+import img151 from './../assets/imgs/151.png';
+import img152 from './../assets/imgs/152.png';
+import img153 from './../assets/imgs/153.png';
+import img154 from './../assets/imgs/154.png';
+import img155 from './../assets/imgs/155.png';
+import img156 from './../assets/imgs/156.png';
+import img157 from './../assets/imgs/157.png';
+import img158 from './../assets/imgs/158.png';
+import img159 from './../assets/imgs/159.png';
+import img160 from './../assets/imgs/160.png';
+import img161 from './../assets/imgs/161.png';
+import img162 from './../assets/imgs/162.png';
+import img163 from './../assets/imgs/163.png';
+import img164 from './../assets/imgs/164.png';
+import img165 from './../assets/imgs/165.png';
+import img166 from './../assets/imgs/166.png';
+import img167 from './../assets/imgs/167.png';
+import img168 from './../assets/imgs/168.png';
+import img169 from './../assets/imgs/169.png';
+import img170 from './../assets/imgs/170.png';
+import img171 from './../assets/imgs/171.png';
 
 
 
@@ -497,18 +519,19 @@ class Profile extends Component{
         koordination: [],
         schusskraft: []
       }
-      // erstelle Werte Tabelle für die Kid
+   
+      // erstelle Werte Tabelle für die Kids
       var membersHerbst = [
           {
             id: 1,
-            vorname: "Emanuel",
+            vorname: "Emmanuel",
             nachname: "Skornia",
-            imgSrc: img1,
+            imgSrc: img162,
             playerposition: "ZM",
             displayObj: {
-              koordination: [22, 20.5], // 0: alt 1: neu  
-              dribbling: [11, 9.5], // 0: alt 1: neu
-              schusskraft: [64, 83] // 0: alt 1: neu
+              koordination: [19, 19], // 0: alt 1: neu  
+              dribbling: [10, 8], // 0: alt 1: neu
+              schusskraft: [73, 82] // 0: alt 1: neu
             }
 
           },
@@ -517,12 +540,12 @@ class Profile extends Component{
             id: 2,
             vorname: "Niklas",
             nachname: "Blum",
-            imgSrc: img2,
+            imgSrc: img154,
             playerposition: "ZM",
             displayObj: {
-              koordination: [17, 17], // 0: alt 1: neu  
-              dribbling: [12, 9.5], // 0: alt 1: neu
-              schusskraft: [68, 68] // 0: alt 1: neu
+              koordination: [18, 18], // 0: alt 1: neu  
+              dribbling: [9, 7], // 0: alt 1: neu
+              schusskraft: [72, 81] // 0: alt 1: neu
             }
 
           },
@@ -545,12 +568,12 @@ class Profile extends Component{
             id: 4,
             vorname: "Mamuka",
             nachname: "Gasoev",
-            imgSrc: img4,
+            imgSrc: img167,
             playerposition: "ZM",
             displayObj: {
-              koordination: [20.5, 19], // 0: alt 1: neu  
-              dribbling: [10, 8], // 0: alt 1: neu
-              schusskraft: [78, 78] // 0: alt 1: neu
+              koordination: [19, 19], // 0: alt 1: neu  
+              dribbling: [11, 9], // 0: alt 1: neu
+              schusskraft: [89, 91] // 0: alt 1: neu
             }
 
           },
@@ -573,12 +596,12 @@ class Profile extends Component{
             id: 6,
             vorname: "Naom",
             nachname: "Moog",
-            imgSrc: img6,
+            imgSrc: img153,
             playerposition: "ZM",
             displayObj: {
-              koordination: [22, 21], // 0: alt 1: neu  
-              dribbling: [10, 9.5], // 0: alt 1: neu
-              schusskraft: [65, 65] // 0: alt 1: neu
+              koordination: [19, 19], // 0: alt 1: neu  
+              dribbling: [11, 9], // 0: alt 1: neu
+              schusskraft: [67, 68] // 0: alt 1: neu
             }
 
           },
@@ -615,10 +638,10 @@ class Profile extends Component{
             id: 9,
             vorname: "Jannik",
             nachname: "Schwärmer",
-            imgSrc: img9,
+            imgSrc: img171,
             playerposition: "ZM",
             displayObj: {
-              dribbling: [12, 10.5], // 0: alt 1: neu
+              dribbling: [22, 21], // 0: alt 1: neu
               koordination: [22, 21], // 0: alt 1: neu  
               schusskraft: [72, 72] // 0: alt 1: neu
             }
@@ -643,12 +666,12 @@ class Profile extends Component{
             id: 11,
             vorname: "Malte",
             nachname: "Blum",
-            imgSrc: img11,
+            imgSrc: img168,
             playerposition: "ZM",
             displayObj: {
-              koordination: [19.5, 18.5], // 0: alt 1: neu  
-              dribbling: [9.5, 7.5], // 0: alt 1: neu
-              schusskraft: [60, 61] // 0: alt 1: neu
+              koordination: [21, 19], // 0: alt 1: neu  
+              dribbling: [10, 8], // 0: alt 1: neu
+              schusskraft: [62, 62] // 0: alt 1: neu
             }
 
           },
@@ -713,7 +736,7 @@ class Profile extends Component{
             id: 16,
             vorname: "Dennis",
             nachname: "Keskiner",
-            imgSrc: img16,
+            imgSrc: img169,
             playerposition: "ZM",
             displayObj: {
               koordination: [27, 20.5], // 0: alt 1: neu  
@@ -1133,12 +1156,12 @@ class Profile extends Component{
             id: 46,
             vorname: "Atharv",
             nachname: "Garg",
-            imgSrc: img140,
+            imgSrc: img165,
             playerposition: "MF",
             displayObj: {
-              koordination: [22, 21],
-      dribbling: [13, 11],
-      schusskraft: [61, 65]
+            koordination: [22, 21],
+            dribbling: [13, 11],
+            schusskraft: [60, 62]
             }
           },
           //______________________________________
@@ -1411,9 +1434,9 @@ class Profile extends Component{
             imgSrc: img110,
             playerposition: "MF",
             displayObj: {
-              koordination: [26, 25],
-      dribbling: [17, 15],
-      schusskraft: [71, 71]
+            koordination: [26, 25],
+            dribbling: [17, 15],
+            schusskraft: [71, 71]
             }
           },
           //______________________________________
@@ -1703,13 +1726,6 @@ class Profile extends Component{
               schusskraft: [79, 79] // 0: alt 1: neu
             }
           },
-
-
-
-
-
-
-
           //______________________________________
           {
             id: 90,
@@ -1754,12 +1770,12 @@ class Profile extends Component{
             id: 93,
             vorname: "Rojhat",
             nachname: "Sari",
-            imgSrc: img109,
+            imgSrc: img157,
             playerposition: "MF",
             displayObj: {
-              koordination: [20, 10.5], // 0: alt 1: neu  
-              dribbling: [9.5, 8], // 0: alt 1: neu
-              schusskraft: [62, 74] // 0: alt 1: neu
+              koordination: [19, 19], // 0: alt 1: neu  
+              dribbling: [10, 8], // 0: alt 1: neu
+              schusskraft: [70, 82] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -1793,11 +1809,11 @@ class Profile extends Component{
             id: 96,
             vorname: "Simon",
             nachname: "Müller",
-            imgSrc: img112,
+            imgSrc: img158,
             playerposition: "MF",
             displayObj: {
-              koordination: [21, 20], // 0: alt 1: neu  
-              dribbling: [10, 9.5], // 0: alt 1: neu
+              koordination: [18, 18], // 0: alt 1: neu  
+              dribbling: [10, 8], // 0: alt 1: neu
               schusskraft: [87, 87] // 0: alt 1: neu
             }
           },
@@ -1819,12 +1835,12 @@ class Profile extends Component{
             id: 98,
             vorname: "Lukas",
             nachname: "Kaessner",
-            imgSrc: img114,
+            imgSrc: img169,
             playerposition: "MF",
             displayObj: {
-              koordination: [22, 22], // 0: alt 1: neu  
-              dribbling: [12, 12], // 0: alt 1: neu
-              schusskraft: [90, 90] // 0: alt 1: neu
+              koordination: [22, 21], // 0: alt 1: neu  
+              dribbling: [14, 12], // 0: alt 1: neu
+              schusskraft: [81, 94] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -1835,9 +1851,9 @@ class Profile extends Component{
             imgSrc: img136,
             playerposition: "MF",
             displayObj: {
-              koordination: [69, 69],
-      dribbling: [12, 12],
-      schusskraft: [22, 21]
+            koordination: [69, 69],
+            dribbling: [12, 12],
+            schusskraft: [22, 21]
             }
           },
           //______________________________________
@@ -1845,12 +1861,12 @@ class Profile extends Component{
             id: 100,
             vorname: "Merten",
             nachname: "Erkan",
-            imgSrc: img116,
+            imgSrc: img151,
             playerposition: "MF",
             displayObj: {
-              koordination: [21.5, 20], // 0: alt 1: neu  
-              dribbling: [10.5, 9], // 0: alt 1: neu
-              schusskraft: [69, 69] // 0: alt 1: neu
+            koordination: [21, 20],
+            dribbling: [9, 7],
+            schusskraft: [50, 66]
             }
           },
           //______________________________________
@@ -1861,9 +1877,9 @@ class Profile extends Component{
             imgSrc: img117,
             playerposition: "MF",
             displayObj: {
-              koordination: [27, 26], // 0: alt 1: neu  
-              dribbling: [12.5, 10], // 0: alt 1: neu
-              schusskraft: [58, 58] // 0: alt 1: neu
+            koordination: [27, 26], // 0: alt 1: neu  
+            dribbling: [12.5, 10], // 0: alt 1: neu
+            schusskraft: [58, 58] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -1871,12 +1887,12 @@ class Profile extends Component{
             id: 102,
             vorname: "Christian",
             nachname: "Dohrn",
-            imgSrc: img138,
+            imgSrc: img164,
             playerposition: "MF",
             displayObj: {
-              koordination: [26, 25],
-      dribbling: [13, 13],
-      schusskraft: [65, 66]
+            koordination: [22, 2],
+            dribbling: [11, 9],
+            schusskraft: [60, 63]
             }
           },
           //______________________________________
@@ -1887,9 +1903,9 @@ class Profile extends Component{
             imgSrc: img119,
             playerposition: "MF",
             displayObj: {
-              koordination: [26.5, 25], // 0: alt 1: neu  
-              dribbling: [11, 10], // 0: alt 1: neu
-              schusskraft: [71, 71] // 0: alt 1: neu
+            koordination: [26.5, 25], // 0: alt 1: neu  
+            dribbling: [11, 10], // 0: alt 1: neu
+            schusskraft: [71, 71] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -1900,9 +1916,9 @@ class Profile extends Component{
             imgSrc: anon,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 25.5], // 0: alt 1: neu  
-              dribbling: [11.5, 9], // 0: alt 1: neu
-              schusskraft: [57, 60] // 0: alt 1: neu
+            koordination: [28, 25.5], // 0: alt 1: neu  
+            dribbling: [11.5, 9], // 0: alt 1: neu
+            schusskraft: [57, 60] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -1913,9 +1929,9 @@ class Profile extends Component{
             imgSrc: img120,
             playerposition: "MF",
             displayObj: {
-              koordination: [33.5, 32], // 0: alt 1: neu  
-              dribbling: [13.5, 11.5], // 0: alt 1: neu
-              schusskraft: [44, 44] // 0: alt 1: neu
+            koordination: [33.5, 32], // 0: alt 1: neu  
+            dribbling: [13.5, 11.5], // 0: alt 1: neu
+            schusskraft: [44, 44] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -1926,10 +1942,10 @@ class Profile extends Component{
             imgSrc: img121,
             playerposition: "MF",
             displayObj: {
-              koordination: [35, 34], // 0: alt 1: neu  
-              dribbling: [16, 13.5], // 0: alt 1: neu
-              schusskraft: [52, 52] // 0: alt 1: neu
-            }
+            koordination: [35, 34], // 0: alt 1: neu  
+            dribbling: [16, 13.5], // 0: alt 1: neu
+            schusskraft: [52, 52] // 0: alt 1: neu
+          }
           },
           //______________________________________
           {
@@ -1939,9 +1955,9 @@ class Profile extends Component{
             imgSrc: img122,
             playerposition: "MF",
             displayObj: {
-              koordination: [32, 30], // 0: alt 1: neu  
-              dribbling: [14, 13.5], // 0: alt 1: neu
-              schusskraft: [45, 45] // 0: alt 1: neu
+            koordination: [32, 30], // 0: alt 1: neu  
+            dribbling: [14, 13.5], // 0: alt 1: neu
+            schusskraft: [45, 45] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -1952,9 +1968,9 @@ class Profile extends Component{
             imgSrc: img123,
             playerposition: "MF",
             displayObj: {
-              koordination: [22, 22], // 0: alt 1: neu  
-              dribbling: [9, 9], // 0: alt 1: neu
-              schusskraft: [55, 55] // 0: alt 1: neu
+            koordination: [22, 22], // 0: alt 1: neu  
+            dribbling: [9, 9], // 0: alt 1: neu
+            schusskraft: [55, 55] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -1965,9 +1981,9 @@ class Profile extends Component{
             imgSrc: img124,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+            koordination: [28, 20], // 0: alt 1: neu  
+            dribbling: [15, 11.5], // 0: alt 1: neu
+            schusskraft: [79, 79] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -1978,9 +1994,9 @@ class Profile extends Component{
             imgSrc: img124,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+            koordination: [28, 20], // 0: alt 1: neu  
+            dribbling: [15, 11.5], // 0: alt 1: neu
+            schusskraft: [79, 79] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -1991,9 +2007,9 @@ class Profile extends Component{
             imgSrc: img141,
             playerposition: "MF",
             displayObj: {
-              koordination: [77, 77],
-      dribbling: [12, 11],
-      schusskraft: [29, 27]
+            koordination: [77, 77],
+            dribbling: [12, 11],
+            schusskraft: [29, 27]
             }
           },
           //______________________________________
@@ -2004,9 +2020,9 @@ class Profile extends Component{
             imgSrc: img124,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+            koordination: [28, 20], // 0: alt 1: neu  
+            dribbling: [15, 11.5], // 0: alt 1: neu
+            schusskraft: [79, 79] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -2017,10 +2033,10 @@ class Profile extends Component{
             imgSrc: img124,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
-            }
+            koordination: [28, 20], // 0: alt 1: neu  
+            dribbling: [15, 11.5], // 0: alt 1: neu
+            schusskraft: [79, 79] // 0: alt 1: neu
+          }
           },
           //______________________________________
           {
@@ -2030,9 +2046,9 @@ class Profile extends Component{
             imgSrc: img124,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+            koordination: [28, 20], // 0: alt 1: neu  
+            dribbling: [15, 11.5], // 0: alt 1: neu
+            schusskraft: [79, 79] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -2043,9 +2059,9 @@ class Profile extends Component{
             imgSrc: img124,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+            koordination: [28, 20], // 0: alt 1: neu  
+            dribbling: [15, 11.5], // 0: alt 1: neu
+            schusskraft: [79, 79] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -2056,9 +2072,9 @@ class Profile extends Component{
             imgSrc: img124,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+            koordination: [28, 20], // 0: alt 1: neu  
+            dribbling: [15, 11.5], // 0: alt 1: neu
+            schusskraft: [79, 79] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -2069,9 +2085,9 @@ class Profile extends Component{
             imgSrc: img124,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+            koordination: [28, 20], // 0: alt 1: neu  
+            dribbling: [15, 11.5], // 0: alt 1: neu
+            schusskraft: [79, 79] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -2082,9 +2098,9 @@ class Profile extends Component{
             imgSrc: img124,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+            koordination: [28, 20], // 0: alt 1: neu  
+            dribbling: [15, 11.5], // 0: alt 1: neu
+            schusskraft: [79, 79] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -2095,9 +2111,9 @@ class Profile extends Component{
             imgSrc: img124,
             playerposition: "MF",
             displayObj: {
-               koordination: [26.5, 25],
-      dribbling: [13, 12],
-      schusskraft: [72, 73]
+            koordination: [26.5, 25],
+            dribbling: [13, 12],
+            schusskraft: [72, 73]
             }
           },
           //______________________________________
@@ -2108,9 +2124,9 @@ class Profile extends Component{
             imgSrc: img124,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+            koordination: [28, 20], // 0: alt 1: neu  
+            dribbling: [15, 11.5], // 0: alt 1: neu
+            schusskraft: [79, 79] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -2121,9 +2137,9 @@ class Profile extends Component{
             imgSrc: img131,
             playerposition: "MF",
             displayObj: {
-              koordination: [24, 22],
-      dribbling: [15, 12],
-      schusskraft: [72, 72]
+            koordination: [24, 22],
+            dribbling: [15, 12],
+            schusskraft: [72, 72]
             }
           },
           //______________________________________
@@ -2134,9 +2150,9 @@ class Profile extends Component{
             imgSrc: img124,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+            koordination: [28, 20], // 0: alt 1: neu  
+            dribbling: [15, 11.5], // 0: alt 1: neu
+            schusskraft: [79, 79] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -2147,9 +2163,9 @@ class Profile extends Component{
             imgSrc: img124,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+            koordination: [28, 20], // 0: alt 1: neu  
+            dribbling: [15, 11.5], // 0: alt 1: neu
+            schusskraft: [79, 79] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -2160,9 +2176,9 @@ class Profile extends Component{
             imgSrc: img1,
             playerposition: "MF",
             displayObj: {
-               koordination: [67, 69],
-      dribbling: [22, 17],
-      schusskraft: [24, 23]
+            koordination: [67, 69],
+            dribbling: [22, 17],
+            schusskraft: [24, 23]
             }
           },
           //______________________________________
@@ -2173,9 +2189,9 @@ class Profile extends Component{
             imgSrc: img124,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+            koordination: [28, 20], // 0: alt 1: neu  
+            dribbling: [15, 11.5], // 0: alt 1: neu
+            schusskraft: [79, 79] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -2186,9 +2202,9 @@ class Profile extends Component{
             imgSrc: img124,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+            koordination: [28, 20], // 0: alt 1: neu  
+            dribbling: [15, 11.5], // 0: alt 1: neu
+            schusskraft: [79, 79] // 0: alt 1: neu
             }
           },
            //______________________________________
@@ -2199,9 +2215,9 @@ class Profile extends Component{
             imgSrc: img124,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+            koordination: [28, 20], // 0: alt 1: neu  
+            dribbling: [15, 11.5], // 0: alt 1: neu
+            schusskraft: [79, 79] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -2212,9 +2228,9 @@ class Profile extends Component{
             imgSrc: img143,
             playerposition: "MF",
             displayObj: {
-              koordination: [29, 28],
-      dribbling: [22, 18],
-      schusskraft: [56, 57]
+            koordination: [29, 28],
+            dribbling: [22, 18],
+            schusskraft: [56, 57]
             }
           },
           //______________________________________
@@ -2225,9 +2241,9 @@ class Profile extends Component{
             imgSrc: img142,
             playerposition: "MF",
             displayObj: {
-               koordination: [29, 27],
-      dribbling: [21, 16],
-      schusskraft: [80, 80]
+            koordination: [29, 27],
+            dribbling: [21, 16],
+            schusskraft: [80, 80]
             }
           },
           //______________________________________
@@ -2238,9 +2254,9 @@ class Profile extends Component{
             imgSrc: img124,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+            koordination: [28, 20], // 0: alt 1: neu  
+            dribbling: [15, 11.5], // 0: alt 1: neu
+            schusskraft: [79, 79] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -2251,9 +2267,9 @@ class Profile extends Component{
             imgSrc: img124,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+            koordination: [28, 20], // 0: alt 1: neu  
+            dribbling: [15, 11.5], // 0: alt 1: neu
+            schusskraft: [79, 79] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -2264,9 +2280,9 @@ class Profile extends Component{
             imgSrc: img124,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+            koordination: [28, 20], // 0: alt 1: neu  
+            dribbling: [15, 11.5], // 0: alt 1: neu
+            schusskraft: [79, 79] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -2277,9 +2293,9 @@ class Profile extends Component{
             imgSrc: img124,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+            koordination: [28, 20], // 0: alt 1: neu  
+            dribbling: [15, 11.5], // 0: alt 1: neu
+            schusskraft: [79, 79] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -2290,9 +2306,9 @@ class Profile extends Component{
             imgSrc: img148,
             playerposition: "MF",
             displayObj: {
-              koordination: [67, 69],
-      dribbling: [22, 17],
-      schusskraft: [24, 23]
+            koordination: [67, 69],
+            dribbling: [22, 17],
+            schusskraft: [24, 23]
             }
           },
           //______________________________________
@@ -2303,9 +2319,9 @@ class Profile extends Component{
             imgSrc: "img133",
             playerposition: "MF",
             displayObj: {
-              koordination: [21, 21],
-              dribbling: [13, 12],
-              schusskraft: [83, 84]
+            koordination: [21, 21],
+            dribbling: [13, 12],
+            schusskraft: [83, 84]
             }
           },
           //______________________________________
@@ -2316,9 +2332,9 @@ class Profile extends Component{
             imgSrc: img124,
             playerposition: "MF",
             displayObj: {
-              koordination: [28, 20], // 0: alt 1: neu  
-              dribbling: [15, 11.5], // 0: alt 1: neu
-              schusskraft: [79, 79] // 0: alt 1: neu
+            koordination: [28, 20], // 0: alt 1: neu  
+            dribbling: [15, 11.5], // 0: alt 1: neu
+            schusskraft: [79, 79] // 0: alt 1: neu
             }
           },
           //______________________________________
@@ -2329,9 +2345,9 @@ class Profile extends Component{
             imgSrc: img127,
             playerposition: "MF",
             displayObj: {
-              koordination: [27, 26],
-      dribbling: [17, 17],
-      schusskraft: [73, 73]
+            koordination: [27, 26],
+            dribbling: [17, 17],
+            schusskraft: [73, 73]
             }
           },
           //______________________________________
@@ -2342,9 +2358,9 @@ class Profile extends Component{
             imgSrc: img125,
             playerposition: "MF",
             displayObj: {
-              koordination: [68, 68],
-      dribbling: [17, 13],
-      schusskraft: [28, 26]
+            koordination: [68, 68],
+            dribbling: [17, 13],
+            schusskraft: [28, 26]
             }
           },
           //______________________________________
@@ -2355,9 +2371,9 @@ class Profile extends Component{
             imgSrc: img132,
             playerposition: "MF",
             displayObj: {
-              koordination: [29, 27],
-      dribbling: [19, 16],
-      schusskraft: [50, 51]
+            koordination: [29, 27],
+            dribbling: [19, 16],
+            schusskraft: [50, 51]
             }
           },
           //______________________________________
@@ -2368,9 +2384,9 @@ class Profile extends Component{
             imgSrc: anon,
             playerposition: "MF",
             displayObj: {
-               koordination: [26.5, 25],
-      dribbling: [13, 12],
-      schusskraft: [72, 73]
+            koordination: [26.5, 25],
+            dribbling: [13, 12],
+            schusskraft: [72, 73]
             }
           },
           //______________________________________
@@ -2381,9 +2397,9 @@ class Profile extends Component{
             imgSrc: img128,
             playerposition: "MF",
             displayObj: {
-              koordination: [24, 23],
-      dribbling: [13, 12],
-      schusskraft: [70, 73]
+            koordination: [24, 23],
+            dribbling: [13, 12],
+            schusskraft: [70, 73]
             }
           },
           //______________________________________
@@ -2394,9 +2410,9 @@ class Profile extends Component{
             imgSrc: img139,
             playerposition: "MF",
             displayObj: {
-              koordination: [25.5, 24],
-      dribbling: [13, 13],
-      schusskraft: [57, 63]
+            koordination: [25.5, 24],
+            dribbling: [13, 13],
+            schusskraft: [57, 63]
             }
           },
           //______________________________________
@@ -2407,9 +2423,9 @@ class Profile extends Component{
             imgSrc: img137,
             playerposition: "MF",
             displayObj: {
-               koordination: [33, 32],
-      dribbling: [13, 12],
-      schusskraft: [67, 68]
+            koordination: [33, 32],
+            dribbling: [13, 12],
+            schusskraft: [67, 68]
             }
           },
           //______________________________________
@@ -2420,9 +2436,9 @@ class Profile extends Component{
             imgSrc: img144,
             playerposition: "MF",
             displayObj: {
-              koordination: [29, 27],
-      dribbling: [14, 14],
-      schusskraft: [53, 54]
+            koordination: [29, 27],
+            dribbling: [14, 14],
+            schusskraft: [53, 54]
             }
           },
           //______________________________________
@@ -2433,9 +2449,9 @@ class Profile extends Component{
             imgSrc: img146,
             playerposition: "MF",
             displayObj: {
-               koordination: [25, 24.5],
-      dribbling: [13, 13],
-      schusskraft: [60, 62]
+            koordination: [25, 24.5],
+            dribbling: [13, 13],
+            schusskraft: [60, 62]
             }
           },
           //______________________________________
@@ -2446,9 +2462,9 @@ class Profile extends Component{
             imgSrc: img130,
             playerposition: "MF",
             displayObj: {
-              koordination: [23.5, 22],
-      dribbling: [13, 11],
-      schusskraft: [67, 67]
+            koordination: [23.5, 22],
+            dribbling: [13, 11],
+            schusskraft: [67, 67]
             }
           },
           //______________________________________
@@ -2459,9 +2475,9 @@ class Profile extends Component{
             imgSrc: img145,
             playerposition: "MF",
             displayObj: {
-              koordination: [25, 24],
-      dribbling: [12, 11],
-      schusskraft: [57, 60]
+            koordination: [25, 24],
+            dribbling: [12, 11],
+            schusskraft: [57, 60]
             }
           },
           //______________________________________
@@ -2472,9 +2488,9 @@ class Profile extends Component{
             imgSrc: img126,
             playerposition: "MF",
             displayObj: {
-              koordination: [42, 39],
-      dribbling: [24, 22],
-      schusskraft: [38, 39]
+            koordination: [42, 39],
+            dribbling: [24, 22],
+            schusskraft: [38, 39]
             }
           },
           //______________________________________
@@ -2485,9 +2501,9 @@ class Profile extends Component{
             imgSrc: img135,
             playerposition: "MF",
             displayObj: {
-              koordination: [24, 22],
-      dribbling: [12, 9],
-      schusskraft: [71, 72]
+            koordination: [24, 22],
+            dribbling: [12, 9],
+            schusskraft: [71, 72]
             }
           },
           //______________________________________
@@ -2498,13 +2514,194 @@ class Profile extends Component{
             imgSrc: "img134",
             playerposition: "MF",
             displayObj: {
-              koordination: [16, 15],
-              dribbling: [9, 9],
-              schusskraft: [72, 72]
+            koordination: [16, 15],
+            dribbling: [9, 9],
+            schusskraft: [72, 72]
+            }
+          },
+          //______________________________________
+          {
+            id: 150,
+            vorname: "Emil",
+            nachname: "Rühmann",
+            imgSrc: img163,
+            playerposition: "MF",
+            displayObj: {
+            koordination: [20, 19],
+            dribbling: [11, 9],
+            schusskraft: [86, 93]
+            }
+          },
+          //______________________________________
+          {
+            id: 151,
+            vorname: "Maximilian",
+            nachname: "Felgentreu",
+            imgSrc: img150,
+            playerposition: "MF",
+            displayObj: {
+            koordination: [23, 23],
+            dribbling: [15, 13],
+            schusskraft: [70, 83]
+            }
+          },
+          //______________________________________
+          {
+            id: 152,
+            vorname: "Ahmad",
+            nachname: "Issa",
+            imgSrc: img166,
+            playerposition: "MF",
+            displayObj: {
+            koordination: [19, 19],
+            dribbling: [10, 8],
+            schusskraft: [91, 99]
+            }
+          },
+          //______________________________________
+          {
+            id: 153,
+            vorname: "Nicklas",
+            nachname: "Klein",
+            imgSrc: img155,
+            playerposition: "MF",
+            displayObj: {
+            koordination: [22, 22],
+            dribbling: [14, 12],
+            schusskraft: [71, 73]
+            }
+          },
+          //______________________________________
+          {
+            id: 154,
+            vorname: "Marie",
+            nachname: "Bohlmann",
+            imgSrc: img149,
+            playerposition: "MF",
+            displayObj: {
+            koordination: [24, 23],
+            dribbling: [12, 10],
+            schusskraft: [75, 76]
+            }
+          },
+          //______________________________________
+          {
+            id: 155,
+            vorname: "Moritz",
+            nachname: "Helbig",
+            imgSrc: img155,
+            playerposition: "MF",
+            displayObj: {
+              koordination: [20, 19],
+              dribbling: [11, 9],
+              schusskraft: [66, 84]
+            }
+          },
+          //______________________________________
+          {
+            id: 156,
+            vorname: "Merten",
+            nachname: "Erkan",
+            imgSrc: img151,
+            playerposition: "MF",
+            displayObj: {
+            koordination: [21, 20],
+            dribbling: [9, 7],
+            schusskraft: [50, 66]
+            }
+          },
+          //______________________________________
+          {
+            id: 157,
+            vorname: "Felix",
+            nachname: "Roeseler",
+            imgSrc: img161,
+            playerposition: "MF",
+            displayObj: {
+            koordination: [19, 19],
+            dribbling: [11, 9],
+            schusskraft: [67, 78]
+            }
+          },
+          //______________________________________
+          {
+            id: 158,
+            vorname: "Louisa",
+            nachname: "Dohrn",
+            imgSrc: anon,
+            playerposition: "MF",
+            displayObj: {
+            koordination: [22, 21],
+            dribbling: [13, 13],
+            schusskraft: [60, 62]
+            }
+          },
+          //______________________________________
+          {
+            id: 159,
+            vorname: "Leandro",
+            nachname: "Silva",
+            imgSrc: img170,
+            playerposition: "MF",
+            displayObj: {
+            koordination: [19, 19],
+            dribbling: [11, 9],
+            schusskraft: [78, 82]
+            }
+          },
+          //______________________________________
+          {
+            id: 160,
+            vorname: "Jannes",
+            nachname: "Otto",
+            imgSrc: img159,
+            playerposition: "MF",
+            displayObj: {
+            koordination: [27, 24],
+            dribbling: [15, 13],
+            schusskraft: [70, 71]
+            }
+          },
+          //______________________________________
+          {
+            id: 161,
+            vorname: "Wassim",
+            nachname: "Kaddouri",
+            imgSrc: anon,
+            playerposition: "MF",
+            displayObj: {
+            koordination: [42, 39],
+            dribbling: [24, 22],
+            schusskraft: [38, 39]
+            }
+          },
+          //______________________________________
+          {
+            id: 162,
+            vorname: "Rajab",
+            nachname: "Alibrahim",
+            imgSrc: img156,
+            playerposition: "MF",
+            displayObj: {
+            koordination: [22, 21],
+            dribbling: [10, 8],
+            schusskraft: [75, 76]
+            }
+          },
+          //______________________________________
+          {
+            id: 163,
+            vorname: "Ibrahim",
+            nachname: "Alibrahim",
+            imgSrc: img160,
+            playerposition: "MF",
+            displayObj: {
+            koordination: [22, 22],
+            dribbling: [13, 11],
+            schusskraft: [61, 62]
             }
           }
       ];
-
     
       
 
