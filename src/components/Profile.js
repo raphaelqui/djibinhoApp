@@ -200,7 +200,7 @@ import img168 from './../assets/imgs/168.png';
 import img169 from './../assets/imgs/169.png';
 import img170 from './../assets/imgs/170.png';
 import img171 from './../assets/imgs/171.png';
-
+import img172 from './../assets/imgs/172.png';
 
 
 
@@ -2628,7 +2628,7 @@ class Profile extends Component{
             id: 158,
             vorname: "Louisa",
             nachname: "Dohrn",
-            imgSrc: anon,
+            imgSrc: img172,
             playerposition: "MF",
             displayObj: {
             koordination: [22, 21],
