@@ -2930,7 +2930,7 @@ class Profile extends Component{
       
 
       
-      if(true){
+      if(false){
 
          window.location.href = "https://www.djibinho.com/countdown/";
 
